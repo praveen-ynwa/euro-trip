@@ -5,24 +5,21 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Table of Contents
 
-1. [Recommended Driving Routes](#recommended-driving-routes)
-2. [Sample Itinerary (14 Days)](#sample-itinerary)
-3. [Hotel Recommendations](#hotel-recommendations)
+1. [Trip Itinerary (14 Days)](#trip-itinerary)
+2. [Hotel Recommendations](#hotel-recommendations)
     - [4-Star Marriott Hotels](#4-star-marriott-hotels)
     - [Alternative 4-Star Hotels](#alternative-4-star-hotels)
     - [3-Star Marriott & Budget Hotels](#3-star-marriott--budget-hotels)
-4. [Experiences & Dining](#experiences--dining)
+3. [Experiences & Dining](#experiences--dining)
     - [France](#france)
     - [Belgium](#belgium)
     - [Netherlands](#netherlands)
     - [Germany](#germany)
     - [Luxembourg](#luxembourg)
     - [Switzerland](#switzerland)
-5. [Scenic Detours & Tips](#scenic-detours--tips)
+4. [Scenic Detours & Tips](#scenic-detours--tips)
 
 ---
-
-## Recommended Driving Routes
 
 ## Trip Itinerary
 
@@ -39,7 +36,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 9 | Luxembourg to Frankfurt<br>- Scenic drive through German countryside<br>- Stop at Rhine Valley viewpoints<br>- Evening in Frankfurt | ~4h | Frankfurt |
 | 10 | Frankfurt to Lucerne<br>- Early departure<br>- Black Forest scenic route<br>- Evening: Lake Lucerne area | ~4h | Lucerne |
 | 11 | Lucerne to Interlaken<br>- Morning: Final Lucerne sights<br>- Scenic drive through Swiss landscapes<br>- Afternoon: Arrive in Interlaken | ~1h | Interlaken |
-| 12 | Interlaken/Montreux Option<br>- Option 1: Stay in Interlaken<br>- Option 2: Drive to Montreux (2 hours)<br>- GoldenPass scenic train option | 0h or ~2h | Interlaken or Montreux |
+| 12 | Interlaken to Montreux <br>- Drive to Montreux (2 hours)<br>- GoldenPass scenic train option | ~2h | Montreux |
 | 13 | Return to Paris<br>- Early morning departure<br>- Multiple rest stops en route<br>- Evening: Final night in Paris<br>- Return | ~6-7h | Paris |
 | 14 | Departure<br>- Return rental car at airport<br>- Flight check-in<br>- Departure | ~1h  | Paris |
 
