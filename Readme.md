@@ -26,9 +26,9 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Trip Itinerary
 
-| Day | Route & Activities | Travel Duration | City of Stay |
+| Day | Route & Activities | 🚗 Duration | Stay |
 |-----|-------------------|----------------|--------------|
-| 1 | Arrive Paris<br>- Pick up rental car at Charles de Gaulle Airport<br>- Evening: Drive to hotel in Paris city center (~1 hour)<br>- Rest and recover from jet lag | ~1h (airport to city) | Paris |
+| 1 | Arrive Paris<br>- Pick up rental car at Charles de Gaulle Airport<br>- Evening: Drive to hotel in Paris city center (~1 hour)<br>- Rest and recover from jet lag | ~1h  | Paris |
 | 2 | Paris<br>- Park at designated parking areas near attractions<br>- Visit Eiffel Tower and Louvre<br>- Evening: Drive through illuminated city<br>- Explore city | Local | Paris |
 | 3 | Paris to Brussels<br>- Early morning departure<br>- Optional stop in Lille for lunch<br>- Afternoon: Explore Brussels Grand Place<br>- Evening: Belgian dinner experience | ~3.5h | Brussels |
 | 4 | Brussels to Bruges<br>- Morning: Drive to Bruges<br>- Full day exploring medieval center<br>- Evening: Stay overnight in Bruges | ~1h | Bruges |
@@ -41,7 +41,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 11 | Lucerne to Interlaken<br>- Morning: Final Lucerne sights<br>- Scenic drive through Swiss landscapes<br>- Afternoon: Arrive in Interlaken | ~1h | Interlaken |
 | 12 | Interlaken/Montreux Option<br>- Option 1: Stay in Interlaken<br>- Option 2: Drive to Montreux (2 hours)<br>- GoldenPass scenic train option | 0h or ~2h | Interlaken or Montreux |
 | 13 | Return to Paris<br>- Early morning departure<br>- Multiple rest stops en route<br>- Evening: Final night in Paris<br>- Return | ~6-7h | Paris |
-| 14 | Departure<br>- Return rental car at airport<br>- Flight check-in<br>- Departure | ~1h (to airport) | Paris |
+| 14 | Departure<br>- Return rental car at airport<br>- Flight check-in<br>- Departure | ~1h  | Paris |
 
 ---
 
