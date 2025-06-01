@@ -43,19 +43,45 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 ---
 
 ## Hotel Recommendations
+## Hotel Recommendations
 
-### 4-Star Marriott Hotels
+| City       | Hotel                                                | Notes                | Star Class |
+|------------|--------------------------------------------------------------------------------------------------------|----------------------|-----------|
+| Paris      | [Paris Marriott Opera Ambassador](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)      | Near Opera Garnier   | 4         |
+| Paris      | [Courtyard Paris Gare de Lyon](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)         | Modern, great transport | 4      |
+| Paris      | Moxy Paris Bastille                                 | Stylish, budget      | 3         |
+| Paris      | Courtyard Paris Arcueil                             | Easy access          | 3         |
+| Brussels   | [Brussels Marriott Hotel Grand Place](https://www.marriott.com/en-us/destinations/belgium.mi)                              | Central              | 4         |
+| Brussels   | Courtyard by Marriott Brussels                      | Modern               | 3         |
+| Amsterdam  | [Amsterdam Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)            | Near Vondelpark      | 4         |
+| Amsterdam  | [Renaissance Amsterdam Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)         | Near canals          | 4         |
+| Amsterdam  | Moxy Amsterdam Houthavens                           | Trendy, affordable   | 3         |
+| Amsterdam  | Courtyard Amsterdam Arena Atlas                     | Near transport       | 3         |
+| Frankfurt  | [Frankfurt Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)            | Messe area           | 4         |
+| Frankfurt  | Moxy Frankfurt City Center                          | Central, lively      | 3         |
 
-| City | Hotel | Notes |
-|------|-------|-------|
-| Paris | [Paris Marriott Opera Ambassador](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Near Opera Garnier |
-| Paris | [Courtyard Paris Gare de Lyon](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Modern, great transport |
-| Brussels | [Brussels Marriott Hotel Grand Place](https://www.marriott.com/en-us/destinations/belgium.mi) | Central |
-| Amsterdam | [Amsterdam Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Near Vondelpark |
-| Amsterdam | [Renaissance Amsterdam Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Near canals |
-| Cologne | [Cologne Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Near Cathedral |
-| Frankfurt | [Frankfurt Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Messe area |
-| Zurich | [Zurich Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html) | Limmat River |
+**Note:**  
+- No direct Marriott in Bruges, Lucerne, Interlaken, or Luxembourg City. See alternatives below.
+
+### Alternative 4-Star Hotels
+
+#### Bruges, Belgium
+- [Hotel Dukes' Palace Bruges](https://www.theheyhotel.ch/en) – Historic, central
+- [Grand Hotel Casselbergh Bruges](https://www.theheyhotel.ch/en) – Modern comfort
+
+#### Lucerne, Switzerland
+- [Hotel des Balances](https://www.theheyhotel.ch/en) – Lake views
+- [Ameron Luzern Hotel Flora](https://www.theheyhotel.ch/en) – Near station
+
+#### Interlaken, Switzerland
+- [Hotel Interlaken](https://www.theheyhotel.ch/en) – Historic, scenic
+- [Hotel Metropole Interlaken](https://www.theheyhotel.ch/en) – Mountain views
+
+**Other Budget Options:**  
+- Bruges: Ibis Brugge Centrum, Hotel Navarra Brugge  
+- Luxembourg: Novotel Luxembourg Centre, Hotel Parc Belle-Vue  
+- Lucerne: Hotel des Balances, Ameron Luzern Hotel Flora  
+- Interlaken: Hotel Interlaken, Hotel Metropole Interlaken  
 
 **Note:**  
 - No direct Marriott in Bruges, Lucerne, Interlaken, or Luxembourg City. See alternatives below.
