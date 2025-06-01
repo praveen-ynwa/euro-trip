@@ -5,7 +5,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Table of Contents
 
-1. [Minimalist Route Map](#minimalist-route-map)
+1. [Route Map](#route-map)
 2. [Trip Itinerary (14 Days)](#trip-itinerary)
 3. [Hotel Recommendations](#hotel-recommendations)
 4. [Experiences & Dining](#experiences--dining)
@@ -19,7 +19,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ---
 
-## Minimalist Route Map
+## Route Map
 
 Paris → Brussels → Bruges → Amsterdam → Cologne → Luxembourg → Frankfurt → Lucerne → Interlaken → Montreux → Paris
 
