@@ -30,15 +30,15 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 3 | Paris to Brussels<br>- Early morning departure<br>- Optional stop in Lille for lunch<br>- Afternoon: Explore Brussels Grand Place<br>- Evening: Belgian dinner experience | ~3.5h | Brussels |
 | 4 | Brussels to Bruges<br>- Morning: Drive to Bruges<br>- Full day exploring medieval center<br>- Evening: Stay overnight in Bruges | ~1h | Bruges |
 | 5 | Bruges to Amsterdam<br>- Morning departure from Bruges<br>- Scenic drive through Netherlands<br>- Afternoon: Arrive in Amsterdam<br>- Evening: Initial exploration of city center | ~3h | Amsterdam |
-| 6 | Amsterdam Day Trips<br>- Morning: Drive to Zaanse Schans (20 mins)<br>- Afternoon: Drive to Giethoorn (1.5 hours)<br>- Evening: Return to Amsterdam<br>- Day trips | 20m + 1.5h | Amsterdam |
+| 6 | Amsterdam Day Trips<br>- Morning: Drive to Zaanse Schans (20 mins)<br>- Afternoon: Drive to Giethoorn (1.5 hours)<br>- Or Afternoon: Haarlem – A charming Dutch town with historic canals | 20m + 1.5h | Amsterdam |
 | 7 | Amsterdam to Cologne via Düsseldorf<br>- Morning: Drive to Düsseldorf (2.5 hours)<br>- Lunch and brief exploration<br>- Afternoon: Continue to Cologne (1 hour) | 2.5h + 1h | Cologne |
-| 8 | Cologne to Luxembourg<br>- Morning departure<br>- Stop at Moselle Valley viewpoints<br>- Afternoon: Explore Luxembourg City | ~2.5h | Luxembourg |
+| 8 | Cologne to Luxembourg<br>- Morning departure<br>- Stop at Moselle Valley viewpoints<br>- (Option) Trier, Germany’s oldest city, for a Roman history detour. <br>- Afternoon: Explore Luxembourg City | ~2.5h | Luxembourg |
 | 9 | Luxembourg to Frankfurt<br>- Scenic drive through German countryside<br>- Stop at Rhine Valley viewpoints<br>- Evening in Frankfurt | ~4h | Frankfurt |
 | 10 | Frankfurt to Lucerne<br>- Early departure<br>- Black Forest scenic route<br>- Evening: Lake Lucerne area | ~4h | Lucerne |
 | 11 | Lucerne to Interlaken<br>- Morning: Final Lucerne sights<br>- Scenic drive through Swiss landscapes<br>- Afternoon: Arrive in Interlaken | ~1h | Interlaken |
-| 12 | Interlaken to Montreux <br>- Drive to Montreux (2 hours)<br>- GoldenPass scenic train option | ~2h | Montreux |
+| 12 | Interlaken to Montreux <br>- Drive to Montreux (2 hours)<br>- GoldenPass scenic train option<br>- ExploreLavaux Vineyard Terraces, a UNESCO site with wine tastings & breathtaking lake views. | ~2h | Montreux |
 | 13 | Return to Paris<br>- Early morning departure<br>- Multiple rest stops en route<br>- Evening: Final night in Paris<br>- Return | ~6-7h | Paris |
-| 14 | Departure<br>- Return rental car at airport<br>- Flight check-in<br>- Departure | ~1h  | Paris |
+| 14 | Departure<br>- Return rental car at airport<br>- Flight check-in<br>- Departure<br> - consider stopping in Dijon or Reims for lunch | ~1h  | Paris |
 
 ---
 
