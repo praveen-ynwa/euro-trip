@@ -52,30 +52,24 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | Paris      | Courtyard Paris Arcueil                             | Easy access          | 3         |
 | Brussels   | [Brussels Marriott Hotel Grand Place](https://www.marriott.com/en-us/destinations/belgium.mi)           | Central              | 4         |
 | Brussels   | Courtyard by Marriott Brussels                      | Modern               | 3         |
+| Bruges     | [Hotel Dukes' Palace Bruges](https://www.theheyhotel.ch/en)                                            | Historic, central    | 4         |
+| Bruges     | [Grand Hotel Casselbergh Bruges](https://www.theheyhotel.ch/en)                                        | Modern comfort       | 4         |
+| Bruges     | Ibis Brugge Centrum                                 | Budget               | 3         |
+| Bruges     | Hotel Navarra Brugge                                | Budget               | 3         |
 | Amsterdam  | [Amsterdam Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)            | Near Vondelpark      | 4         |
 | Amsterdam  | [Renaissance Amsterdam Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)         | Near canals          | 4         |
 | Amsterdam  | Moxy Amsterdam Houthavens                           | Trendy, affordable   | 3         |
 | Amsterdam  | Courtyard Amsterdam Arena Atlas                     | Near transport       | 3         |
 | Cologne    | [Cologne Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)              | Near Cathedral       | 4         |
 | Cologne    | Moxy Cologne Bonn Airport                           | Budget, airport      | 3         |
-| Frankfurt  | [Frankfurt Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)            | Messe area           | 4         |
-| Frankfurt  | Moxy Frankfurt City Center                          | Central, lively      | 3         |
-| Zurich     | [Zurich Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)               | Limmat River         | 4         |
-| Zurich     | Moxy Zurich Airport                                 | Budget, airport      | 3         |
-| Bruges     | [Hotel Dukes' Palace Bruges](https://www.theheyhotel.ch/en)                                            | Historic, central    | 4         |
-| Bruges     | [Grand Hotel Casselbergh Bruges](https://www.theheyhotel.ch/en)                                        | Modern comfort       | 4         |
-| Bruges     | Ibis Brugge Centrum                                 | Budget               | 3         |
-| Bruges     | Hotel Navarra Brugge                                | Budget               | 3         |
-| Lucerne    | [Hotel des Balances](https://www.theheyhotel.ch/en) | Lake views           | 4         |
-| Lucerne    | [Ameron Luzern Hotel Flora](https://www.theheyhotel.ch/en)                                             | Near station         | 4         |
-| Lucerne    | Hotel des Balances                                  | Budget               | 3         |
-| Lucerne    | Ameron Luzern Hotel Flora                           | Budget               | 3         |
-| Interlaken | [Hotel Interlaken](https://www.theheyhotel.ch/en)   | Historic, scenic     | 4         |
-| Interlaken | [Hotel Metropole Interlaken](https://www.theheyhotel.ch/en)                                            | Mountain views       | 4         |
-| Interlaken | Hotel Interlaken                                    | Budget               | 3         |
-| Interlaken | Hotel Metropole Interlaken                          | Budget               | 3         |
 | Luxembourg | Novotel Luxembourg Centre                           | Budget               | 3         |
 | Luxembourg | Hotel Parc Belle-Vue                                | Budget               | 3         |
+| Frankfurt  | [Frankfurt Marriott Hotel](https://www.tripadvisor.com/Hotels-g187147-zfb9208-Paris_Ile_de_France-Hotels.html)            | Messe area           | 4         |
+| Frankfurt  | Moxy Frankfurt City Center                          | Central, lively      | 3         |
+| Lucerne    | [Hotel des Balances](https://www.theheyhotel.ch/en) | Lake views           | 4         |
+| Lucerne    | [Ameron Luzern Hotel Flora](https://www.theheyhotel.ch/en)                                             | Near station         | 4         |
+| Interlaken | [Hotel Interlaken](https://www.theheyhotel.ch/en)   | Historic, scenic     | 4         |
+| Interlaken | [Hotel Metropole Interlaken](https://www.theheyhotel.ch/en)                                            | Mountain views       | 4         |
 
 **Note:**  
 - No direct Marriott in Bruges, Lucerne, Interlaken, or Luxembourg City. Alternatives are included above.
