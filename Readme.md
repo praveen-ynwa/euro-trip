@@ -70,9 +70,14 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | Lucerne    | [Ameron Luzern Hotel Flora](https://www.theheyhotel.ch/en)                                             | Near station         | 4         |
 | Interlaken | [Hotel Interlaken](https://www.theheyhotel.ch/en)   | Historic, scenic     | 4         |
 | Interlaken | [Hotel Metropole Interlaken](https://www.theheyhotel.ch/en)                                            | Mountain views       | 4         |
+| Montreux   | Fairmont Le Montreux Palace                         | Luxury lakeside hotel with stunning views | 5         |
+| Montreux   | Royal Plaza Montreux                                | 4-star hotel with spa and lakefront location | 4         |
+| Montreux   | Hotel Splendid                                      | Charming hotel with a historic touch | 3         |
+| Montreux   | J5 Hotels Helvetie Montreux                         | Affordable and centrally located | 3         |
+| Montreux   | Hotel Eden Palace au Lac                            | Scenic stay near Lake Geneva | 4         |
 
 **Note:**  
-- No direct Marriott in Bruges, Lucerne, Interlaken, or Luxembourg City. Alternatives are included above.
+- No direct Marriott in Bruges, Lucerne, Interlaken, Montreux or Luxembourg City. Alternatives are included above.
 
 ---
 
