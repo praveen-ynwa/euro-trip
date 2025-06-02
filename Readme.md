@@ -8,14 +8,9 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 1. [Route Map](#route-map)
 2. [Trip Itinerary (14 Days)](#trip-itinerary)
 3. [Hotel Recommendations](#hotel-recommendations)
-4. [Experiences & Dining](#experiences--dining)
-    - [France](#france)
-    - [Belgium](#belgium)
-    - [Netherlands](#netherlands)
-    - [Germany](#germany)
-    - [Luxembourg](#luxembourg)
-    - [Switzerland](#switzerland)
-5. [Scenic Detours & Tips](#scenic-detours--tips)
+4. [Experiences](#experiences)
+5. [Dining](#dining)
+6. [Scenic Detours & Tips](#scenic-detours--tips)
 
 ---
 
@@ -85,59 +80,35 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ---
 
-## Experiences & Dining
+## Experiences
 
-### France
+| Country      | City         | Experiences                                      |
+|-------------|--------------|-------------------------------------------------|
+| France      | Paris        | Seine River Cruise, Montmartre Walking Tour      |
+| Belgium     | Brussels     | Chocolate-Making Workshop, Atomium Visit         |
+| Belgium     | Bruges       | Canal Boat Tour, Belfry Tower Climb              |
+| Netherlands | Amsterdam    | Bike Tour, Anne Frank House                      |
+| Germany     | Cologne      | Cologne Cathedral Tour, Rhine River Cruise       |
+| Germany     | Frankfurt    | Römerberg Square, Palmengarten                   |
+| Luxembourg  | Luxembourg   | Bock Casemates, Grund District Walk              |
+| Switzerland | Lucerne      | Lake Lucerne Boat Tour, Chapel Bridge Walk       |
+| Switzerland | Interlaken   | Jungfraujoch Excursion, Paragliding Over the Alps|
+| Switzerland | Montreux     | Château de Chillon, Lavaux Vineyard Tour         |
 
-#### Paris
-- **Experiences:** Seine River Cruise, Montmartre Walking Tour
-- **Dining:** Le Comptoir du Relais, L'Ambroisie
+## Dining
 
-### Belgium
-
-#### Brussels
-- **Experiences:** Chocolate-Making Workshop, Atomium Visit
-- **Dining:** Chez Léon, La Roue d'Or
-
-#### Bruges
-- **Experiences:** Canal Boat Tour, Belfry Tower Climb
-- **Dining:** De Stove, Den Dyver
-
-### Netherlands
-
-#### Amsterdam
-- **Experiences:** Bike Tour, Anne Frank House
-- **Dining:** De Kas, The Seafood Bar
-
-### Germany
-
-#### Cologne
-- **Experiences:** Cologne Cathedral Tour, Rhine River Cruise
-- **Dining:** Peters Brauhaus, Hanse-Stube
-
-#### Frankfurt
-- **Experiences:** Römerberg Square, Palmengarten
-- **Dining:** Apfelwein Wagner, Main Tower Restaurant
-
-### Luxembourg
-
-#### Luxembourg City
-- **Experiences:** Bock Casemates, Grund District Walk
-- **Dining:** Le Sud, Brasserie Guillaume
-
-### Switzerland
-
-#### Lucerne
-- **Experiences:** Lake Lucerne Boat Tour, Chapel Bridge Walk
-- **Dining:** Restaurant Balances, Wirtshaus Taube
-
-#### Interlaken
-- **Experiences:** Jungfraujoch Excursion, Paragliding Over the Alps
-- **Dining:** Restaurant Stadthaus, Goldener Anker
-
-#### Montreux
-- **Experiences:** Château de Chillon, Lavaux Vineyard Tour
-- **Dining:** Le Palais Oriental, Café Littéraire
+| Country      | City         | Dining Options                                   |
+|-------------|--------------|-------------------------------------------------|
+| France      | Paris        | Le Comptoir du Relais, L'Ambroisie               |
+| Belgium     | Brussels     | Chez Léon, La Roue d'Or                          |
+| Belgium     | Bruges       | De Stove, Den Dyver                              |
+| Netherlands | Amsterdam    | De Kas, The Seafood Bar                          |
+| Germany     | Cologne      | Peters Brauhaus, Hanse-Stube                     |
+| Germany     | Frankfurt    | Apfelwein Wagner, Main Tower Restaurant          |
+| Luxembourg  | Luxembourg   | Le Sud, Brasserie Guillaume                      |
+| Switzerland | Lucerne      | Restaurant Balances, Wirtshaus Taube             |
+| Switzerland | Interlaken   | Restaurant Stadthaus, Goldener Anker             |
+| Switzerland | Montreux     | Le Palais Oriental, Café Littéraire              |
 
 ---
 
@@ -149,9 +120,3 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 - **GoldenPass Scenic Train (Switzerland):** Interlaken to Montreux
 
 ---
-
-**Need more?**  
-- [ ] Road trip stops  
-- [ ] Accommodation by preference (budget, boutique, scenic)  
-- [ ] Booking experiences or hidden gems  
-Let me know your preferences!
