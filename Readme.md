@@ -6,11 +6,12 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 ## Table of Contents
 
 1. [Route Map](#route-map)
-2. [Trip Itinerary (14 Days)](#trip-itinerary)
-3. [Hotel Recommendations](#hotel-recommendations)
-4. [Experiences](#experiences)
-5. [Dining](#dining)
-6. [Scenic Detours & Tips](#scenic-detours--tips)
+2. [Trip Itinerary (Quick Reference)](#trip-itinerary-quick-reference)
+3. [Full Day-by-Day Itinerary](./TripItinerary.md)
+4. [Hotel Recommendations](#hotel-recommendations)
+5. [Experiences](#experiences)
+6. [Dining](#dining)
+7. [Scenic Detours & Tips](#scenic-detours--tips)
 
 ---
 
@@ -20,7 +21,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ---
 
-### Trip Itinerary (Quick Reference)
+## Trip Itinerary (Quick Reference)
 
 | Day | Route / City           | Key Activity / Highlight                | Stay        |
 |-----|------------------------|-----------------------------------------|-------------|
@@ -38,10 +39,6 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 12  | Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |
 | 13  | Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |
 | 14  | Paris                  | Montmartre, Arc de Triomphe, depart     |        |
-
----
-
-[See the full day-by-day itinerary here.](./TripItinerary.md)
 
 ---
 
