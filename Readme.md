@@ -20,7 +20,26 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ---
 
-## Trip Itinerary
+### Trip Itinerary (Quick Reference)
+
+| Day | Route / City           | Key Activity / Highlight                | Stay        |
+|-----|------------------------|-----------------------------------------|-------------|
+| 1   | Paris                  | Arrive, evening stroll, Seine views     | Paris       |
+| 2   | Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       |
+| 3   | Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    |
+| 4   | Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      |
+| 5   | Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   |
+| 6   | Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   |
+| 7   | Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     |
+| 8   | Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  |
+| 9   | Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   |
+| 10  | Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     |
+| 11  | Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |
+| 12  | Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |
+| 13  | Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |
+| 14  | Paris                  | Montmartre, Arc de Triomphe, depart     |        |
+
+---
 
 [See the full day-by-day itinerary here.](./TripItinerary.md)
 
