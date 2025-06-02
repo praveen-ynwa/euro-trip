@@ -21,7 +21,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Route Map
 
-Paris → Brussels → Bruges → Amsterdam → Cologne → Luxembourg → Frankfurt → Lucerne → Interlaken → Montreux → Paris
+🇫🇷 Paris → 🇧🇪 Brussels → 🇧🇪 Bruges → 🇳🇱 Amsterdam → 🇩🇪 Cologne → 🇱🇺 Luxembourg → 🇩🇪 Frankfurt → 🇨🇭 Lucerne → 🇨🇭 Interlaken → 🇨🇭 Montreux → 🇫🇷 Paris
 
 ---
 
