@@ -44,10 +44,6 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Hotel Recommendations
 
-Here’s your **fully updated hotel recommendations table** with **ratings and URLs** included:
-
-## **Hotel Recommendations**
-
 | City       | Hotel                                              | Notes                                      | Star Class | Rating | Avg Price 💵 |
 |------------|----------------------------------------------------|--------------------------------------------|------------|--------|----------------------|
 | Paris      | Paris Marriott Opera Ambassador                   | Near Opera Garnier                         | ⭐⭐⭐⭐      | 3.9    | $294                 |
