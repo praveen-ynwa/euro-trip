@@ -48,7 +48,7 @@ Here’s your **fully updated hotel recommendations table** with **ratings and U
 
 ## **Hotel Recommendations**
 
-| City       | Hotel                                              | Notes                                      | Star Class | Rating | Average Nightly Price |
+| City       | Hotel                                              | Notes                                      | Star Class | Rating | Avg Price 💵 |
 |------------|----------------------------------------------------|--------------------------------------------|------------|--------|----------------------|
 | Paris      | Paris Marriott Opera Ambassador                   | Near Opera Garnier                         | ⭐⭐⭐⭐      | 3.9    | $294                 |
 | Paris      | Courtyard Paris Gare de Lyon                      | Modern, great transport                    | ⭐⭐⭐⭐      | 4.4    | $207                 |
