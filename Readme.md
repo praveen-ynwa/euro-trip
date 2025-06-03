@@ -48,38 +48,34 @@ Here’s your **fully updated hotel recommendations table** with **ratings and U
 
 ## **Hotel Recommendations**
 
-| City       | Hotel                                                | Notes                | Star Class | Rating | URL |
-|------------|------------------------------------------------------|----------------------|-----------|--------|----|
-| **Paris**  | [Paris Marriott Opera Ambassador](https://www.marriott.com/en-us/hotels/paroa-paris-marriott-opera-ambassador-hotel/overview/) | Near Opera Garnier   | ⭐⭐⭐⭐ | 3.9 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187147-d197578-Reviews-Paris_Marriott_Opera_Ambassador_Hotel-Paris_Ile_de_France.html) |
-| **Paris**  | [Courtyard Paris Gare de Lyon](https://www.marriott.com/en-us/hotels/pargl-courtyard-paris-gare-de-lyon/overview/) | Modern, great transport | ⭐⭐⭐⭐ | 4.4 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187147-d15243992-Reviews-Courtyard_Paris_Gare_De_Lyon-Paris_Ile_de_France.html) |
-| **Paris**  | [Moxy Paris Bastille](https://www.marriott.com/en-us/hotels/parob-moxy-paris-bastille/overview/) | Stylish, budget      | ⭐⭐⭐ | 3.5 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187147-d15837618-Reviews-Moxy_Paris_Bastille-Paris_Ile_de_France.html) |
-| **Paris**  | [Courtyard Paris Arcueil](https://www.marriott.com/en-us/hotels/parac-courtyard-paris-arcueil/overview/) | Easy access          | ⭐⭐⭐ | 3.9 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g661449-d1959707-Reviews-Courtyard_Paris_Arcueil-Arcueil_Val_de_Marne_Ile_de_France.html) |
-| **Paris**  | [Courtyard Paris Gare de Lyon](https://www.marriott.com/en-us/hotels/pargl-courtyard-paris-gare-de-lyon/overview/) | Modern, great transport, parking available  | ⭐⭐⭐⭐ | 4.4 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187147-d15243992-Reviews-Courtyard_Paris_Gare_De_Lyon-Paris_Ile_de_France.html) |
-| **Brussels** | [Brussels Marriott Hotel Grand Place](https://www.marriott.com/en-us/hotels/brudt-brussels-marriott-hotel-grand-place/overview/) | Central              | ⭐⭐⭐⭐ | 4.1 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188644-d258866-Reviews-Brussels_Marriott_Hotel_Grand_Place-Brussels.html) |
-| **Brussels** | [Courtyard by Marriott Brussels](https://www.marriott.com/en-us/hotels/brucy-courtyard-brussels/overview/) | Modern               | ⭐⭐⭐ | 3.9 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g950781-d487543-Reviews-Courtyard_Brussels-Evere_Brussels.html) |
-| **Bruges** | [Hotel Dukes' Palace Bruges](https://www.hoteldukespalace.com/) | Historic, central    | ⭐⭐⭐⭐ | 4.6 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188671-d206731-Reviews-Hotel_Dukes_Palace-Bruges_West_Flanders_Province.html) |
-| **Bruges** | [Grand Hotel Casselbergh Bruges](https://www.grandhotelcasselbergh.com/) | Modern comfort       | ⭐⭐⭐⭐ | 4.6 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188671-d206731-Reviews-Grand_Hotel_Casselbergh-Bruges_West_Flanders_Province.html) |
-| **Bruges** | [Hotel Navarra Brugge](https://www.hotelnavarra.com/) | Budget               | ⭐⭐⭐ | 4.6 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188671-d227230-Reviews-Hotel_Navarra_Brugge-Bruges_West_Flanders_Province.html) |
-| **Amsterdam** | [Amsterdam Marriott Hotel](https://www.marriott.com/en-us/hotels/amsnt-amsterdam-marriott-hotel/overview/) | Near Vondelpark      | ⭐⭐⭐⭐ | 4.3 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188590-d229508-Reviews-Amsterdam_Marriott_Hotel-Amsterdam_North_Holland_Province.html) |
-| **Amsterdam** | [Renaissance Amsterdam Hotel](https://www.marriott.com/en-us/hotels/amsrn-renaissance-amsterdam-hotel/overview/) | Near canals          | ⭐⭐⭐⭐ | 4.1 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188590-d229508-Reviews-Renaissance_Amsterdam_Hotel-Amsterdam_North_Holland_Province.html) |
-| **Cologne** | [Cologne Marriott Hotel](https://www.marriott.com/en-us/hotels/cgnmc-cologne-marriott-hotel/overview/) | Near Cathedral       | ⭐⭐⭐⭐ | 4.2 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187371-d585156-Reviews-Cologne_Marriott_Hotel-Cologne_North_Rhine_Westphalia.html) |
-| **Cologne** | [Ruby Ella Hotel](https://www.ruby-hotels.com/en/hotels-destinations/cologne/ruby-ella) | Stylish & modern, great location | ⭐⭐⭐ | 4.4 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187371-d23311849-Reviews-Ruby_Ella_Hotel-Cologne_North_Rhine_Westphalia.html) |
-| **Luxembourg** | [Novotel Luxembourg Centre](https://all.accor.com/hotel/5556/index.en.shtml) | Budget               | ⭐⭐⭐ | 4.2 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g190356-d648347-Reviews-Novotel_Luxembourg_Centre-Luxembourg_City_Luxembourg_District.html) |
-| **Luxembourg** | [Le Royal Hotel](https://www.leroyalluxembourg.com/) | Luxury stay, near city center | ⭐⭐⭐⭐⭐ | 4.5 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g190356-d206497-Reviews-Le_Royal_Hotels_&_Resorts_Luxembourg-Luxembourg_City_Luxembourg.html) |
-| **Luxembourg** | [Moxy Luxembourg Airport](https://www.marriott.com/en-us/hotels/luxox-moxy-luxembourg-airport/overview/) | Budget-friendly, parking available | ⭐⭐⭐ | 4.2  | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g190352-d28043716-Reviews-Moxy_Luxembourg_Airport-Luxembourg_District_Niederanven.html) |
-| **Frankfurt** | [Frankfurt Marriott Hotel](https://www.marriott.com/en-us/hotels/fradt-frankfurt-marriott-hotel/overview/) | Messe area           | ⭐⭐⭐⭐ | 4.2 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187337-d199311-Reviews-Frankfurt_Marriott_Hotel-Frankfurt_Hesse.html) |
-| **Frankfurt** | [NH Collection Frankfurt City](https://www.nh-hotels.com/hotel/nh-collection-frankfurt-city) | Modern, near shopping & attractions | ⭐⭐⭐⭐ | 4.3 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g187337-d233347-Reviews-NH_Collection_Frankfurt_City-Frankfurt_Hesse.html) |
-| **Lucerne** | [Hotel des Balances](https://www.balances.ch/) | Lake views           | ⭐⭐⭐⭐ | 4.6 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188062-d206048-Reviews-Hotel_des_Balances-Canton_of_Lucerne_Lucerne.html) |
-| **Lucerne** | [Ameron Luzern Hotel Flora](https://www.ameroncollection.com/en/luzern-hotel-flora) | Near station         | ⭐⭐⭐⭐ | 4.1 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188062-d206053-Reviews-AMERON_Luzern_Hotel_Flora-Canton_of_Lucerne_Lucerne.html) |
-| **Lucerne** | [Hotel Wilden Mann](https://www.wilden-mann.ch/) | Historic boutique hotel | ⭐⭐⭐⭐ | 4.6 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188062-d231869-Reviews-Hotel_Wilden_Mann-Canton_of_Lucerne_Lucerne.html) |
-| **Lucerne** | [Renaissance Lucerne Hotel](https://www.marriott.com/en-us/hotels/emlbr-renaissance-lucerne-hotel/overview/) | Boutique-style, parking available | ⭐⭐⭐⭐ | 4.3 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188062-d228140-Reviews-Renaissance_Lucerne_Hotel-Canton_of_Lucerne_Lucerne.html) |
-| **Interlaken** | [Hotel Interlaken](https://www.hotelinterlaken.ch/) | Historic, scenic     | ⭐⭐⭐⭐ | 4.2 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188081-d254228-Reviews-Hotel_Interlaken-Interlaken_Bernese_Oberland_Canton_of_Bern.html) |
-| **Interlaken** | [Hotel Bellevue Interlaken](https://www.hotelbellevue-interlaken.ch/en/) | Cozy stay with great mountain views | ⭐⭐⭐ | 4.3 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188081-d254229-Reviews-Hotel_Bellevue-Interlaken_Bernese_Oberland_Canton_of_Bern.html) |
-| **Montreux** | [Eurotel Montreux](https://www.eurotel-montreux.ch/en/) | Scenic lake views, great service | ⭐⭐⭐⭐ | 4.2 | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188106-d206259-Reviews-Eurotel_Montreux-Canton_of_Vaud_Montreux.html) |
-| **Montreux** | [Grand Hotel Suisse Majestic, Autograph Collection](https://www.marriott.com/en-us/hotels/gvaak-grand-hotel-suisse-majestic-autograph-collection/overview/) | Belle Époque style, parking available | ⭐⭐⭐⭐ | 4.2  | [Tripadvisor](https://www.tripadvisor.com/Hotel_Review-g188106-d254135-Reviews-Grand_Hotel_Suisse_Majestic-Canton_of_Vaud_Montreux.html) |
-
-**Note:**  
-- No direct Marriott in Bruges, Lucerne, Interlaken, Montreux or Luxembourg City. Alternatives are included above.
+| City       | Hotel                                              | Notes                                      | Star Class | Rating | Average Nightly Price |
+|------------|----------------------------------------------------|--------------------------------------------|------------|--------|----------------------|
+| Paris      | Paris Marriott Opera Ambassador                   | Near Opera Garnier                         | ⭐⭐⭐⭐      | 3.9    | $294                 |
+| Paris      | Courtyard Paris Gare de Lyon                      | Modern, great transport                    | ⭐⭐⭐⭐      | 4.4    | $207                 |
+| Paris      | Moxy Paris Bastille                               | Stylish, budget                            | ⭐⭐⭐       | 3.5    | $139                 |
+| Paris      | Courtyard Paris Arcueil                           | Easy access                                | ⭐⭐⭐       | 3.9    | $108                 |
+| Brussels   | Brussels Marriott Hotel Grand Place               | Central                                    | ⭐⭐⭐⭐      | 4.1    | $174                 |
+| Brussels   | Courtyard by Marriott Brussels                    | Modern                                     | ⭐⭐⭐       | 3.9    | $89                  |
+| Bruges     | Hotel Dukes' Palace Bruges                        | Historic, central                          | ⭐⭐⭐⭐      | 4.6    | $146                 |
+| Bruges     | Grand Hotel Casselbergh Bruges                    | Modern comfort                             | ⭐⭐⭐⭐      | 4.6    | $110                 |
+| Bruges     | Hotel Navarra Brugge                              | Budget                                     | ⭐⭐⭐       | 4.6    | $128                 |
+| Amsterdam  | Amsterdam Marriott Hotel                          | Near Vondelpark                            | ⭐⭐⭐⭐      | 4.3    | $198                 |
+| Amsterdam  | Renaissance Amsterdam Hotel                       | Near canals                                | ⭐⭐⭐⭐      | 4.1    | $176                 |
+| Cologne    | Cologne Marriott Hotel                            | Near Cathedral                             | ⭐⭐⭐⭐      | 4.2    | $119                 |
+| Cologne    | Ruby Ella Hotel                                   | Stylish & modern, great location           | ⭐⭐⭐       | 4.4    | $97                  |
+| Luxembourg | Novotel Luxembourg Centre                         | Budget                                     | ⭐⭐⭐       | 4.2    | $110                 |
+| Luxembourg | Le Royal Hotel                                    | Luxury stay, near city center              | ⭐⭐⭐⭐⭐      | 4.5    | $236                 |
+| Luxembourg | Moxy Luxembourg Airport                           | Budget-friendly, parking available         | ⭐⭐⭐       | 4.2    | $97                  |
+| Frankfurt  | Frankfurt Marriott Hotel                          | Messe area                                 | ⭐⭐⭐⭐      | 4.2    | $88                  |
+| Frankfurt  | NH Collection Frankfurt City                      | Modern, near shopping & attractions        | ⭐⭐⭐⭐      | 4.3    | $102                 |
+| Lucerne    | Hotel des Balances                                | Lake views                                 | ⭐⭐⭐⭐      | 4.6    | $182                 |
+| Lucerne    | Ameron Luzern Hotel Flora                         | Near station                               | ⭐⭐⭐⭐      | 4.1    | $97                  |
+| Lucerne    | Hotel Wilden Mann                                 | Historic boutique hotel                    | ⭐⭐⭐⭐      | 4.6    | $122                 |
+| Lucerne    | Renaissance Lucerne Hotel                         | Boutique-style, parking available          | ⭐⭐⭐⭐      | 4.3    | $154                 |
+| Interlaken | Hotel Interlaken                                  | Historic, scenic                           | ⭐⭐⭐⭐      | 4.2    | $147                 |
+| Interlaken | Hotel Bellevue Interlaken                         | Cozy stay with great mountain views        | ⭐⭐⭐       | 4.3    | $268                 |
+| Montreux   | Eurotel Montreux                                  | Scenic lake views, great service           | ⭐⭐⭐⭐      | 4.2    | $172                 |
+| Montreux   | Grand Hotel Suisse Majestic, Autograph Collection | Belle Époque style, parking available      | ⭐⭐⭐⭐      | 4.2    | $200                 |
 
 ---
 
