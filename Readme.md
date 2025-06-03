@@ -103,7 +103,6 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | Brussels   | La Roue d'Or                 | 3.9          | 1,061      | $$ - $$$    | Lunch/Dinner       | French, Belgian    |
 | Bruges     | House of Waffles             | 4.6          | 1,117      | $$          | Bakery/Snack       | Belgian            |
 | Bruges     | De Stove                     | 4.6          | 913        | $$$$        | Lunch/Dinner       | Belgian, French    |
-| Bruges     | Den Dyver                    | 4.1          | 8          | $$          | Lunch/Dinner       | Belgian, Dutch     |
 | Amsterdam  | De Kas                       | 4.6          | 2,175      | $$$$        | Lunch/Dinner       | Organic, European  |
 | Amsterdam  | The Seafood Bar              | 4.6          | 7,629      | $$$         | Lunch/Dinner       | Seafood            |
 | Cologne    | Peters Brauhaus              | 3.9          | 2,318      | $$          | Bar/Dinner         | German, Pub        |
