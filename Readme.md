@@ -10,7 +10,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 3. [Full Day-by-Day Itinerary](./TripItinerary.md)
 4. [Hotel Recommendations](#hotel-recommendations)
 5. [Experiences](#experiences)
-6. [Dining](#dining)
+6. [Restaurant Recommendations](#restaurant-recommendations)
 7. [Scenic Detours & Tips](#scenic-detours--tips)
 
 ---
@@ -90,20 +90,37 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | Switzerland | Interlaken   | Jungfraujoch Excursion, Paragliding Over the Alps|
 | Switzerland | Montreux     | Château de Chillon, Lavaux Vineyard Tour         |
 
-## Dining
 
-| Country      | City         | Dining Options                                   |
-|-------------|--------------|-------------------------------------------------|
-| France      | Paris        | Le Comptoir du Relais, L'Ambroisie               |
-| Belgium     | Brussels     | Chez Léon, La Roue d'Or                          |
-| Belgium     | Bruges       | De Stove, Den Dyver                              |
-| Netherlands | Amsterdam    | De Kas, The Seafood Bar                          |
-| Germany     | Cologne      | Peters Brauhaus, Hanse-Stube                     |
-| Germany     | Frankfurt    | Apfelwein Wagner, Main Tower Restaurant          |
-| Luxembourg  | Luxembourg   | Le Sud, Brasserie Guillaume                      |
-| Switzerland | Lucerne      | Restaurant Balances, Wirtshaus Taube             |
-| Switzerland | Interlaken   | Restaurant Stadthaus, Goldener Anker             |
-| Switzerland | Montreux     | Le Palais Oriental, Café Littéraire              |
+### Restaurant Recommendations
+
+| City       | Restaurant                  | Google Rating | User Count | Price Range | Type               | Cuisine            |
+|------------|----------------------------|--------------|------------|-------------|--------------------|--------------------|
+| Paris      | Le Procope                   | 3.8          | 5,965      | $$$         | Dinner             | French             |
+| Paris      | Le Comptoir du Relais        | 3.9          | 1,850      | $$$         | Lunch/Dinner       | French             |
+| Paris      | L'Ambroisie                  | 4.1          | 605        | $$$$        | Fine Dining        | French, European   |
+| Mont-Saint-Michel | La Mère Poulard       | 3.1          | 1,486      | $$$         | Lunch/Dinner       | French, European   |
+| Brussels   | Chez Léon                    | 3.6          | 9,586      | $$          | Lunch/Dinner       | Belgian            |
+| Brussels   | La Roue d'Or                 | 3.9          | 1,061      | $$ - $$$    | Lunch/Dinner       | French, Belgian    |
+| Bruges     | House of Waffles             | 4.6          | 1,117      | $$          | Bakery/Snack       | Belgian            |
+| Bruges     | De Stove                     | 4.6          | 913        | $$$$        | Lunch/Dinner       | Belgian, French    |
+| Bruges     | Den Dyver                    | 4.1          | 8          | $$          | Lunch/Dinner       | Belgian, Dutch     |
+| Amsterdam  | De Kas                       | 4.6          | 2,175      | $$$$        | Lunch/Dinner       | Organic, European  |
+| Amsterdam  | The Seafood Bar              | 4.6          | 7,629      | $$$         | Lunch/Dinner       | Seafood            |
+| Cologne    | Peters Brauhaus              | 3.9          | 2,318      | $$          | Bar/Dinner         | German, Pub        |
+| Cologne    | Hanse-Stube                   | 4.5          | 395        | $$$$        | Fine Dining        | French, European   |
+| Trier      | Weinstube Kesselstatt         | 4.1          | 860        | $$          | Wine Bar/Dinner    | German, European   |
+| Luxembourg | Le Sud                        | 4.4          | 819        | $$$$        | Fine Dining        | French, European   |
+| Luxembourg | Brasserie Guillaume          | 3.9          | 881        | $$ - $$$    | Lunch/Dinner       | French, Seafood    |
+| Frankfurt  | Apfelwein Wagner              | 3.8          | 2,260      | $$          | Bar/Dinner         | German, European   |
+| Frankfurt  | Main Tower Restaurant        | 4.1          | 286        | $$$$        | Fine Dining        | European, Asian    |
+| Lucerne    | Restaurant Balances          | 4.6          | 977        | $$$$        | Lunch/Dinner       | Swiss, European    |
+| Lucerne    | Wirtshaus Taube               | 4.2          | 800        | $$          | Lunch/Dinner       | Swiss, European    |
+| Jungfraujoch | Top of Europe Restaurant    | 4.4          | 743        | $$$$        | Lunch/Dinner       | Swiss, International |
+| Interlaken | Restaurant Stadthaus         | 4.2          | 430        | $$ - $$$    | Lunch/Dinner       | Swiss, European    |
+| Interlaken | Goldener Anker               | 5.0          | 8          | $$$         | Dinner             | French, Swiss      |
+| Montreux   | Le Palais Oriental            | 3.9          | 727        | $$$$        | Dinner             | Lebanese, Persian  |
+| Montreux   | Café Littéraire               | 3.8          | 128        | $$ - $$$    | Breakfast/Lunch    | European           |
+
 
 ---
 
