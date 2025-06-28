@@ -48,7 +48,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 |-----|--------------|---------------------------------------|--------------------|-------------------|
 | 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | 406.10             | TBD               |
 | 3   | Brussels     | Courtyard Brussels                    | 130.89             | TBD               |
-| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | (Not Booked)       |                   |
+| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | 197.70* + 9.33**   | TBD               |
 | 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | 659.89             | TBD               |
 | 7   | Cologne      | Cologne Marriott Hotel (Booked with Points) | 0.00          | TBD               |
 | 8   | Luxembourg   | Moxy Luxembourg Airport                | 139.00             | TBD               |
@@ -57,7 +57,10 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 11  | Interlaken   | (Not Booked)                           |                    |                   |
 | 12  | Montreux     | (Not Booked)                           |                    |                   |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
-|     |              | **Total (Confirmed)**                  | **1,501.53**       |                   |
+|     |              | **Total (Confirmed)**                  | **1,708.66**       |                   |
+
+*Paid to Expedia in USD, to be converted to EUR at property
+**Locally collected fee in USD, to be paid at property
 
 ---
 
