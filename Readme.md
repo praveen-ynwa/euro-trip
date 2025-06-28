@@ -34,11 +34,30 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel, Conf #85548222 |
 | 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  | Moxy Luxembourg Airport, Conf #85559601 |
 | 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   | Frankfurt Marriott Hotel, Conf #85578530 |
-| 10  | <b>Jul 20:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     | Ameron Luzern Hotel Flora (sample, update as needed) |
-| 11  | <b>Jul 21:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  | Hotel Interlaken (sample, update as needed) |
-| 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    | Eurotel Montreux (sample, update as needed) |
-| 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       | Le Méridien Paris Arc De Triomphe, Conf #81765448 |
+| 10  | <b>Jul 20:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     | |
+| 11  | <b>Jul 21:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |  |
+| 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |  |
+| 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |  |
 | 14  | <b>Jul 24:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |  |
+
+---
+
+## Hotel Reservations and Charges 
+
+| Day | City         | Hotel                                 | Total Charge (USD) |
+|-----|--------------|---------------------------------------|--------------------|
+| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | $1,176             |
+| 3   | Brussels     | Courtyard Brussels                    | $89                |
+| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | $220               |
+| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | $352               |
+| 7   | Cologne      | Cologne Marriott Hotel                 | $238               |
+| 8   | Luxembourg   | Moxy Luxembourg Airport                | $194               |
+| 9   | Frankfurt    | Frankfurt Marriott Hotel               | $176               |
+| 10  | Lucerne      | (Not specified)                        |                    |
+| 11  | Interlaken   | (Not specified)                        |                    |
+| 12  | Montreux     | (Not specified)                        |                    |
+| 13  | Paris        | Le Méridien Paris Arc De Triomphe      | $294               |
+|     |              | **Total (Confirmed)**                  | **$2,739**         |
 
 ---
 
