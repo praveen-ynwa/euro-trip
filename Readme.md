@@ -56,7 +56,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 10-11  | Interlaken      | Boutique Hotel Bellevue, Conf #58571           | 932.00 CHF               | **On-site parking available (fee applies)** |
 | 12  | Montreux        | Grand Hotel Suisse Majestic, Conf #87355071    | 370.00 CHF               | **Underground parking available (fee applies)** |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
-|     |              | **Total (Confirmed)**                  | **1,708.66** EUR / **$1,830.00** USD |                   |
+|     |              | **Total (Confirmed)**                  | **1,708.66** EUR / **$1,830.00** USD + **1,302.00 CHF** |                   |
 
 *Paid to Expedia in USD, to be converted to EUR at property
 **Locally collected fee in USD, to be paid at property
