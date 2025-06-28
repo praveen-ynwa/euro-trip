@@ -25,34 +25,13 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 | Day | Route / City           | Key Activity / Highlight                | Stay        | Hotel Reservation Details |
 |-----|------------------------|-----------------------------------------|-------------|--------------------------|
-| 1   | <b>Jul 11:</b> Paris                  | Arrive, evening stroll, Seine views     | Paris       | Le Méridien Paris Arc De Triomphe, Conf #81765448 |
-| 2   | <b>Jul 12:</b> Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       | Le Méridien Paris Arc De Triomphe, Conf #81765448 |
-| 3   | <b>Jul 13:</b> Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    | Courtyard Brussels, Conf #82383330 |
-| 4   | <b>Jul 14:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      | Grand Hotel Casselbergh Bruges, see .eml |
-| 5   | <b>Jul 15:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   | Renaissance Amsterdam Hotel, Conf #85533458 |
-| 6   | <b>Jul 16:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   | Renaissance Amsterdam Hotel, Conf #85533458 |
-| 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel, Conf #85548222 |
-| 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  | Moxy Luxembourg Airport, Conf #85559601 |
-| 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   | Frankfurt Marriott Hotel, Conf #85578530 |
-| 10  | <b>Jul 20:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     | |
-| 11  | <b>Jul 21:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |  |
-| 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |  |
-| 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |  |
-| 14  | <b>Jul 24:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |  |
-
----
-
-## Hotel Reservations and Charges 
-
-| Day | City         | Hotel                                 | Total Charge (EUR) | Parking Fee (EUR) |
-|-----|--------------|---------------------------------------|--------------------|-------------------|
-| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | 406.10             | TBD               |
-| 3   | Brussels     | Courtyard Brussels                    | 130.89             | TBD               |
-| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | 197.70* + 9.33**   | TBD               |
-| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | 659.89             | TBD               |
-| 7   | Cologne      | Cologne Marriott Hotel (Booked with Points) | 0.00          | TBD               |
-| 8   | Luxembourg   | Moxy Luxembourg Airport                | 139.00             | TBD               |
-| 9   | Frankfurt    | Frankfurt Marriott Hotel               | 164.65             | TBD               |
+| 1–2    | Paris       | Le Méridien Paris Arc De Triomphe     | 406.10                  | **€36/day (valet only)**           |
+| 3      | Brussels    | Courtyard Brussels                    | 130.89                  | **€25/day (weekday)** / **€12.50 (weekend)** |
+| 4      | Bruges      | Grand Hotel Casselbergh Bruges        | 197.70* + 9.33**        | **€30/day (underground, secure)** |
+| 5–6    | Amsterdam   | Renaissance Amsterdam Hotel           | 659.89                  | **€30/day (limited hotel spaces)** |
+| 7      | Cologne     | Cologne Marriott Hotel (Points)       | 0.00                    | **€30/day (on-site garage)**       |
+| 8      | Luxembourg  | Moxy Luxembourg Airport               | 139.00                  | **Discounted airport parking (Car Park A/B)** |
+| 9      | Frankfurt   | Frankfurt Marriott Hotel              | 164.65                  | **€29/day (Westendgate garage)**   |
 | 10  | Lucerne      | (Not Booked)                           |                    |                   |
 | 11  | Interlaken   | (Not Booked)                           |                    |                   |
 | 12  | Montreux     | (Not Booked)                           |                    |                   |
