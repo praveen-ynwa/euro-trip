@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <!-- Chosen Palette: Warm Neutrals with Blue Accent -->
     <!-- Application Structure Plan: A tabbed, single-page application design was chosen for optimal user experience. This structure avoids a long, overwhelming scroll and allows the user to quickly access specific information categories: a 'Dashboard' for immediate, daily info; 'Itinerary' for the full schedule; 'Bookings & Costs' for financial tracking with data visualization; 'Explore' for interactive recommendations; and a new 'Places' tab for detailed restaurant, attraction, and scenic drive information. This task-oriented design is more usable than the original linear document, as it anticipates the user's need to switch between different contexts (e.g., checking today's plan, then looking up a restaurant for the current city, or exploring attractions). -->
     <!-- Visualization & Content Choices: 
@@ -16,29 +17,6 @@
         - Itinerary Table -> Goal: Highlight current day's plan -> Method: HTML table with JS-driven dynamic styling. Interaction: The current day's row is automatically highlighted on page load. Justification: Immediately orients the user to what is most relevant.
         - New Places Tab (Restaurants, Attractions, Scenic Drives) -> Goal: Provide comprehensive details with direct map access -> Method: Structured HTML tables for each category. Interaction: Direct Google Maps links with a globe icon for each entry. Justification: Centralizes all location-based information and provides immediate navigation, improving usability significantly over static text. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .tab-active { border-bottom-color: #3b82f6; color: #3b82f6; }
-        .section { display: none; }
-        .section.active { display: block; }
-        .chart-container { position: relative; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; height: 400px; max-height: 50vh; }
-        .current-day-highlight { background-color: #eff6ff; border-left: 4px solid #3b82f6; }
-        /* Ensure table cells handle long content */
-        #itinerary-table-body td, #places-restaurants-table-body td, #places-attractions-table-body td, #places-drives-table-body td {
-            vertical-align: top;
-            padding: 0.75rem;
-        }
-        .google-maps-icon {
-            font-size: 1.1em;
-            margin-left: 0.5em;
-            color: #4285F4; /* Google Maps blue */
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .google-maps-icon:hover {
-            opacity: 0.8;
-        }
-    </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
