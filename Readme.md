@@ -44,20 +44,20 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Hotel Reservations and Charges 
 
-| Day | City         | Hotel                                 | Total Charge (USD) |
+| Day | City         | Hotel                                 | Total Charge (EUR) |
 |-----|--------------|---------------------------------------|--------------------|
-| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | $1,176             |
-| 3   | Brussels     | Courtyard Brussels                    | $89                |
-| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | $220               |
-| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | $352               |
-| 7   | Cologne      | Cologne Marriott Hotel                 | $238               |
-| 8   | Luxembourg   | Moxy Luxembourg Airport                | $194               |
-| 9   | Frankfurt    | Frankfurt Marriott Hotel               | $176               |
-| 10  | Lucerne      | (Not specified)                        |                    |
-| 11  | Interlaken   | (Not specified)                        |                    |
-| 12  | Montreux     | (Not specified)                        |                    |
-| 13  | Paris        | Le Méridien Paris Arc De Triomphe      | $294               |
-|     |              | **Total (Confirmed)**                  | **$2,739**         |
+| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | 406.10             |
+| 3   | Brussels     | Courtyard Brussels                    | 130.89             |
+| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | (Not Booked)       |
+| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | 659.89             |
+| 7   | Cologne      | Cologne Marriott Hotel (Booked with Points) | 0.00          |
+| 8   | Luxembourg   | Moxy Luxembourg Airport                | 139.00             |
+| 9   | Frankfurt    | Frankfurt Marriott Hotel               | 164.65             |
+| 10  | Lucerne      | (Not Booked)                           |                    |
+| 11  | Interlaken   | (Not Booked)                           |                    |
+| 12  | Montreux     | (Not Booked)                           |                    |
+| 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |
+|     |              | **Total (Confirmed)**                  | **1,501.53**       |
 
 ---
 
