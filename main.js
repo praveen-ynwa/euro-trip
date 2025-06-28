@@ -1,5 +1,4 @@
-
-        const tripData = {
+const tripData = {
             itinerary: [
                 { day: 1, date: "2025-07-11", route: "Paris", highlights: "<b>Jul 11:</b> Arrive Paris & Evening Exploration<br>- Pick up rental car at Charles de Gaulle Airport (~1 hour drive to city center).<br>- Check into hotel & rest to recover from jet lag.<br>- <b>Evening: Light exploration & dinner</b><br>&nbsp;&nbsp;- Stroll through <b>Île de la Cité</b> and see <b>Notre-Dame Cathedral</b> (8:00–18:45, free entry, tower: ticket required).<br>&nbsp;&nbsp;- Walk along the <b>Seine River</b> and enjoy the sunset views.<br>&nbsp;&nbsp;- <b>Dinner at Le Procope</b>, one of Paris’ oldest restaurants.", duration: "~1h", stay: "Paris", confirmation: "Le Méridien Paris Arc De Triomphe, Conf #81765448" },
                 { day: 2, date: "2025-07-12", route: "Paris → Mont-Saint-Michel", highlights: "<b>Jul 12:</b> Paris → Mont-Saint-Michel<br>🚗 <b>Morning: Drive to Mont-Saint-Michel</b> (~4 hours)<br>- Depart Paris early (~6 AM) to maximize time at Mont-Saint-Michel.<br>- Arrive around 10 AM and explore the island.<br>- Visit <b>Mont-Saint-Michel Abbey</b> (9:00–19:00, ticket required), medieval streets, and scenic viewpoints.<br>- Enjoy lunch at La Mère Poulard, famous for its traditional omelets.<br><br>🚗 <b>Afternoon: Return to Paris</b> (~4 hours)<br>- Depart Mont-Saint-Michel around 2 PM to return to Paris by 6 PM.<br>- Evening: Free time in Paris for relaxation or optional activities like:<br>- Strolling through Le Marais or Latin Quarter.<br>- <b>Seine River cruise</b> (various operators, 10:00–22:00, ticket required) or exploring Montmartre.", duration: "~4h + 4h", stay: "Paris", confirmation: "Le Méridien Paris Arc De Triomphe, Conf #81765448" },
@@ -195,7 +194,7 @@
                 if (itemDate.getTime() === today.getTime()) {
                     row.classList.add('current-day-highlight');
                 }
-                
+                 
                 // Extract main city from the route string for Google Maps link
                 const mainCityMatch = item.route.match(/^(.*?)(?:\s*→.*)?$/);
                 const mainCity = mainCityMatch ? mainCityMatch[1].trim() : item.route;
@@ -206,7 +205,7 @@
 
                 row.innerHTML = `
                     <td class="p-3 font-medium">${item.day}</td>
-                    <td class="p-3">${new Date(item.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}</td>
+                    <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
                     <td class="p-3"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
                     <td class="p-3">${processedHighlights}</td>
                     <td class="p-3">${item.stay}</td>
