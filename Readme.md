@@ -44,20 +44,20 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 ## Hotel Reservations and Charges 
 
-| Day | City         | Hotel                                 | Total Charge (EUR) |
-|-----|--------------|---------------------------------------|--------------------|
-| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | 406.10             |
-| 3   | Brussels     | Courtyard Brussels                    | 130.89             |
-| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | (Not Booked)       |
-| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | 659.89             |
-| 7   | Cologne      | Cologne Marriott Hotel (Booked with Points) | 0.00          |
-| 8   | Luxembourg   | Moxy Luxembourg Airport                | 139.00             |
-| 9   | Frankfurt    | Frankfurt Marriott Hotel               | 164.65             |
-| 10  | Lucerne      | (Not Booked)                           |                    |
-| 11  | Interlaken   | (Not Booked)                           |                    |
-| 12  | Montreux     | (Not Booked)                           |                    |
-| 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |
-|     |              | **Total (Confirmed)**                  | **1,501.53**       |
+| Day | City         | Hotel                                 | Total Charge (EUR) | Parking Fee (EUR) |
+|-----|--------------|---------------------------------------|--------------------|-------------------|
+| 1-2 | Paris        | Le Méridien Paris Arc De Triomphe      | 406.10             | TBD               |
+| 3   | Brussels     | Courtyard Brussels                    | 130.89             | TBD               |
+| 4   | Bruges       | Grand Hotel Casselbergh Bruges         | (Not Booked)       |                   |
+| 5-6 | Amsterdam    | Renaissance Amsterdam Hotel            | 659.89             | TBD               |
+| 7   | Cologne      | Cologne Marriott Hotel (Booked with Points) | 0.00          | TBD               |
+| 8   | Luxembourg   | Moxy Luxembourg Airport                | 139.00             | TBD               |
+| 9   | Frankfurt    | Frankfurt Marriott Hotel               | 164.65             | TBD               |
+| 10  | Lucerne      | (Not Booked)                           |                    |                   |
+| 11  | Interlaken   | (Not Booked)                           |                    |                   |
+| 12  | Montreux     | (Not Booked)                           |                    |                   |
+| 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
+|     |              | **Total (Confirmed)**                  | **1,501.53**       |                   |
 
 ---
 
