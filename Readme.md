@@ -25,20 +25,20 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 | Day | Route / City           | Key Activity / Highlight                | Stay        |
 |-----|------------------------|-----------------------------------------|-------------|
-| 1   | <b>Jul 10:</b> Paris                  | Arrive, evening stroll, Seine views     | Paris       |
-| 2   | <b>Jul 11:</b> Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       |
-| 3   | <b>Jul 12:</b> Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    |
-| 4   | <b>Jul 13:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      |
-| 5   | <b>Jul 14:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   |
-| 6   | <b>Jul 15:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   |
-| 7   | <b>Jul 16:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     |
-| 8   | <b>Jul 17:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  |
-| 9   | <b>Jul 18:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   |
-| 10  | <b>Jul 19:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     |
-| 11  | <b>Jul 20:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |
-| 12  | <b>Jul 21:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |
-| 13  | <b>Jul 22:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |
-| 14  | <b>Jul 23:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |
+| 1   | <b>Jul 11:</b> Paris                  | Arrive, evening stroll, Seine views     | Paris       |
+| 2   | <b>Jul 12:</b> Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       |
+| 3   | <b>Jul 13:</b> Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    |
+| 4   | <b>Jul 14:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      |
+| 5   | <b>Jul 15:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   |
+| 6   | <b>Jul 16:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   |
+| 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     |
+| 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  |
+| 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   |
+| 10  | <b>Jul 20:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     |
+| 11  | <b>Jul 21:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |
+| 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |
+| 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |
+| 14  | <b>Jul 24:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |
 
 ---
 
