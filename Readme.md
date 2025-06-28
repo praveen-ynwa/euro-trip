@@ -34,8 +34,8 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel, Conf #85548222 |
 | 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  | Moxy Luxembourg Airport, Conf #85559601 |
 | 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   | Frankfurt Marriott Hotel, Conf #85578530 |
-| 10  | <b>Jul 20:</b> Frankfurt → Lucerne    | Heidelberg, Black Forest, Chapel Bridge | Lucerne     | |
-| 11  | <b>Jul 21:</b> Lucerne → Interlaken   | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |  |
+| 10  | <b>Jul 20:</b> Frankfurt → Interlaken | Heidelberg, Black Forest, Chapel Bridge | Interlaken  | |
+| 11  | <b>Jul 21:</b> Interlaken              | Jungfraujoch, Alps, Lake Brienz         | Interlaken  |  |
 | 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    |  |
 | 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |  |
 | 14  | <b>Jul 24:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |  |
@@ -53,7 +53,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 7      | Cologne     | Cologne Marriott Hotel (Points)       | 0.00                    | **€30/day (on-site garage)**       |
 | 8      | Luxembourg  | Moxy Luxembourg Airport               | 139.00                  | **Discounted airport parking (Car Park A/B)** |
 | 9      | Frankfurt   | Frankfurt Marriott Hotel              | 164.65                  | **€29/day (Westendgate garage)**   |
-| 10  | Lucerne      | (Not Booked)                           |                    |                   |
+| 10  | Interlaken      | (Not Booked)                           |                    |                   |
 | 11  | Interlaken   | (Not Booked)                           |                    |                   |
 | 12  | Montreux     | (Not Booked)                           |                    |                   |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
