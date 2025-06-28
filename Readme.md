@@ -57,10 +57,12 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 11  | Interlaken   | (Not Booked)                           |                    |                   |
 | 12  | Montreux     | (Not Booked)                           |                    |                   |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
-|     |              | **Total (Confirmed)**                  | **1,708.66**       |                   |
+|     |              | **Total (Confirmed)**                  | **1,708.66** EUR / **$1,830.00** USD |                   |
 
 *Paid to Expedia in USD, to be converted to EUR at property
 **Locally collected fee in USD, to be paid at property
+
+> **Note:** USD total is approximate, based on a conversion rate of 1 EUR ≈ 1.071 USD (June 2025).
 
 ---
 
