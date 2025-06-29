@@ -109,6 +109,7 @@ const tripData = {
             displayTodayItinerary();
             displayTotalCost();
             createRouteMap();
+            populateWeatherForQuickReference();
         });
 
         function setupTabs() {
@@ -417,3 +418,47 @@ const tripData = {
                 drivesTableBody.appendChild(row);
             });
         }
+
+        // --- Weather Automation for Quick Reference Table ---
+async function populateWeatherForQuickReference() {
+    // Map of city names to lat/lon for Open-Meteo (add more as needed)
+    const cityCoords = {
+        'Paris': { lat: 48.8566, lon: 2.3522 },
+        'Mont-Saint-Michel': { lat: 48.6361, lon: -1.5115 },
+        'Brussels': { lat: 50.8503, lon: 4.3517 },
+        'Bruges': { lat: 51.2093, lon: 3.2247 },
+        'Amsterdam': { lat: 52.3676, lon: 4.9041 },
+        'Cologne': { lat: 50.9375, lon: 6.9603 },
+        'Luxembourg': { lat: 49.6116, lon: 6.1319 },
+        'Frankfurt': { lat: 50.1109, lon: 8.6821 },
+        'Interlaken': { lat: 46.6863, lon: 7.8632 },
+        'Montreux': { lat: 46.4381, lon: 6.9116 }
+    };
+    for (const item of tripData.itinerary) {
+        // Extract main city for weather (use first city in route string)
+        let city = item.route.split('→')[0].split(',')[0].trim();
+        if (city === 'Zaanse Schans' || city === 'Giethoorn') city = 'Amsterdam';
+        if (!cityCoords[city]) continue;
+        const { lat, lon } = cityCoords[city];
+        // Format date as YYYY-MM-DD
+        const date = item.date;
+        // Open-Meteo API: daily forecast for max/min temp and rain
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}`;
+        try {
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error('No weather');
+            const data = await resp.json();
+            const tmax = data.daily.temperature_2m_max?.[0];
+            const tmin = data.daily.temperature_2m_min?.[0];
+            const rain = data.daily.precipitation_probability_max?.[0];
+            let weatherStr = '--';
+            if (typeof tmax === 'number' && typeof tmin === 'number') {
+                weatherStr = `${Math.round(tmax)}°/${Math.round(tmin)}°C`;
+                if (typeof rain === 'number') weatherStr += `, Rain: ${rain}%`;
+            }
+            document.getElementById(`weather-day-${item.day}`).textContent = weatherStr;
+        } catch (e) {
+            document.getElementById(`weather-day-${item.day}`).textContent = '--';
+        }
+    }
+}
