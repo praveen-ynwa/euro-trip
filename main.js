@@ -453,7 +453,9 @@ async function populateWeatherForQuickReference() {
             const rain = data.daily.precipitation_probability_max?.[0];
             let weatherStr = '--';
             if (typeof tmax === 'number' && typeof tmin === 'number') {
-                weatherStr = `${Math.round(tmax)}°/${Math.round(tmin)}°C`;
+                const tmaxF = Math.round(tmax * 9/5 + 32);
+                const tminF = Math.round(tmin * 9/5 + 32);
+                weatherStr = `${Math.round(tmax)}°/${Math.round(tmin)}°C (${tmaxF}°/${tminF}°F)`;
                 if (typeof rain === 'number') weatherStr += `, Rain: ${rain}%`;
             }
             document.getElementById(`weather-day-${item.day}`).textContent = weatherStr;
