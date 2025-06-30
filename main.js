@@ -1,18 +1,4 @@
 const tripData = {
-    itinerary: [
-        // Itinerary will be loaded from itinerary.json
-    ],
-    hotelCosts: [
-        { city: "Paris", hotel: "Le Méridien Paris Arc De Triomphe", chargeEUR: 406.10, chargeCHF: 0, parking: "€36/day (valet only)" },
-        { city: "Brussels", hotel: "Courtyard Brussels", chargeEUR: 130.89, chargeCHF: 0, parking: "€25/day (weekday) / €12.50 (weekend)" },
-        { city: "Bruges", hotel: "Grand Hotel Casselbergh Bruges", chargeEUR: 207.03, chargeCHF: 0, parking: "€30/day (underground, secure)" },
-        { city: "Amsterdam", hotel: "Apollo Hotel Amsterdam, Tribute Portfolio", chargeEUR: 377.10, chargeCHF: 0, parking: "€30/day (limited hotel spaces)" },
-        { city: "Cologne", hotel: "Cologne Marriott Hotel (Points)", chargeEUR: 0.00, chargeCHF: 0, parking: "€30/day (on-site garage)" },
-        { city: "Luxembourg", hotel: "Moxy Luxembourg Airport", chargeEUR: 139.00, chargeCHF: 0, parking: "Discounted airport parking (Car Park A/B)" },
-        { city: "Frankfurt", hotel: "Frankfurt Marriott Hotel", chargeEUR: 164.65, chargeCHF: 0, parking: "€29/day (Westendgate garage)" },
-        { city: "Interlaken", hotel: "Hotel Bernerhof", chargeEUR: 0, chargeCHF: 511.00, parking: "On-site parking available (fee applies)" },
-        { city: "Montreux", hotel: "Grand Hotel Suisse Majestic", chargeEUR: 0, chargeCHF: 370.00, parking: "Underground parking available (fee applies)" },
-    ],
     recommendations: [
         { type: 'hotel', city: 'Paris', name: 'Paris Marriott Opera Ambassador', details: 'Near Opera Garnier', rating: '3.9', price: '$294' },
         { type: 'hotel', city: 'Paris', name: 'Courtyard Paris Gare de Lyon', details: 'Modern, great transport', rating: '4.4', price: '$207' },
@@ -239,29 +225,30 @@ function displayTodayItinerary() {
 }
 
 function displayTotalCost() {
-    const chfToEurRate = 1.02; 
-    const totalCost = tripData.hotelCosts.reduce((acc, cost) => {
-        const chfInEur = cost.chargeCHF * chfToEurRate;
-        return acc + cost.chargeEUR + chfInEur;
+    const chfToEurRate = 1.02;
+    // Use itinerary data for hotel costs
+    const totalCost = tripData.itinerary.filter(item => item.hotel).reduce((acc, item) => {
+        const chfInEur = item.chargeCHF * chfToEurRate;
+        return acc + item.chargeEUR + chfInEur;
     }, 0);
     document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)}`;
 }
 
 function populateBookingsTable() {
     const tableBody = document.getElementById('bookings-table-body');
-    tableBody.innerHTML = ''; // Clear existing content
-    tripData.hotelCosts.forEach(item => {
+    tableBody.innerHTML = '';
+    // Use itinerary data for hotel costs
+    tripData.itinerary.forEach(item => {
+        if (!item.hotel) return; // Only show days with hotel info
         const row = document.createElement('tr');
         row.className = 'border-b border-gray-200 hover:bg-gray-50';
-        
         let charge = item.chargeEUR > 0 ? `€${item.chargeEUR.toFixed(2)}` : `CHF ${item.chargeCHF.toFixed(2)}`;
-        const googleMapsLinkForHotel = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.hotel + ', ' + item.city)}`;
-
+        const googleMapsLinkForHotel = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.hotel + ', ' + item.stay)}`;
         row.innerHTML = `
-            <td class="p-3 font-medium">${item.city}</td>
+            <td class="p-3 font-medium">${item.stay}</td>
             <td class="p-3">${item.hotel} <a href="${googleMapsLinkForHotel}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
             <td class="p-3">${charge}</td>
-            <td class="p-3">${item.parking}</td>
+            <td class="p-3">${item.parking || ''}</td>
         `;
         tableBody.appendChild(row);
     });
@@ -270,13 +257,13 @@ function populateBookingsTable() {
 function createCostsChart() {
     const ctx = document.getElementById('costsChart').getContext('2d');
     const chfToEurRate = 1.02;
-
-    const labels = tripData.hotelCosts.map(item => item.city);
-    const data = tripData.hotelCosts.map(item => {
+    // Use itinerary data for hotel costs
+    const hotelNights = tripData.itinerary.filter(item => item.hotel);
+    const labels = hotelNights.map(item => item.stay);
+    const data = hotelNights.map(item => {
         const chfInEur = item.chargeCHF * chfToEurRate;
         return item.chargeEUR + chfInEur;
     });
-
     new Chart(ctx, {
         type: 'bar',
         data: {
