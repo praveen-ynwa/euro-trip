@@ -7,11 +7,10 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 
 1. [Route Map](#route-map)
 2. [Trip Itinerary (Quick Reference)](#trip-itinerary-quick-reference)
-3. [Full Day-by-Day Itinerary](./TripItinerary.md)
-4. [Hotel Recommendations](#hotel-recommendations)
-5. [Experiences](#experiences)
-6. [Restaurant Recommendations](#restaurant-recommendations)
-7. [Scenic Detours & Tips](#scenic-detours--tips)
+3. [Hotel Recommendations](#hotel-recommendations)
+4. [Experiences](#experiences)
+5. [Restaurant Recommendations](#restaurant-recommendations)
+6. [Scenic Detours & Tips](#scenic-detours--tips)
 
 ---
 
