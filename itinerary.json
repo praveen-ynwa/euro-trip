@@ -7,7 +7,7 @@
     "duration": "~1h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 406.10,
+    "chargeEUR": 203.6,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)"
   },
@@ -19,7 +19,7 @@
     "duration": "~4h + 4h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 406.10,
+    "chargeEUR": 203.6,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)"
   },
@@ -55,7 +55,7 @@
     "duration": "~3h",
     "stay": "Amsterdam",
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
-    "chargeEUR": 377.10,
+    "chargeEUR": 188.6,
     "chargeCHF": 0,
     "parking": "€30/day (limited hotel spaces)"
   },
@@ -67,7 +67,7 @@
     "duration": "20m + 1.5h + 1.5h",
     "stay": "Amsterdam",
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
-    "chargeEUR": 377.10,
+    "chargeEUR": 188.6,
     "chargeCHF": 0,
     "parking": "€30/day (limited hotel spaces)"
   },
@@ -116,7 +116,7 @@
     "stay": "Interlaken",
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
-    "chargeCHF": 511.00,
+    "chargeCHF": 255.50,
     "parking": "On-site parking available (fee applies)"
   },
   {
@@ -128,7 +128,7 @@
     "stay": "Interlaken",
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
-    "chargeCHF": 511.00,
+    "chargeCHF": 255.50,
     "parking": "On-site parking available (fee applies)"
   },
   {
