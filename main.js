@@ -428,21 +428,52 @@ async function populateWeatherForQuickReference() {
         const { lat, lon } = cityCoords[city];
         // Format date as YYYY-MM-DD
         const date = item.date;
-        // Open-Meteo API: daily forecast for max/min temp and rain
-        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}`;
+        // Open-Meteo API: daily forecast for max/min temp, rain, and weathercode
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}`;
         try {
             const resp = await fetch(url);
             if (!resp.ok) throw new Error('No weather');
             const data = await resp.json();
             const tmax = data.daily.temperature_2m_max?.[0];
             const tmin = data.daily.temperature_2m_min?.[0];
-            const rain = data.daily.precipitation_probability_max?.[0];
+            const weatherCode = data.daily.weathercode?.[0];
+            // Map Open-Meteo weather codes to emoji/icons
+            const weatherIcons = {
+                0: '☀️', // Clear sky
+                1: '🌤️', // Mainly clear
+                2: '⛅', // Partly cloudy
+                3: '☁️', // Overcast
+                45: '🌫️', // Fog
+                48: '🌫️', // Depositing rime fog
+                51: '🌦️', // Drizzle: Light
+                53: '🌦️', // Drizzle: Moderate
+                55: '🌦️', // Drizzle: Dense
+                56: '🌧️', // Freezing Drizzle: Light
+                57: '🌧️', // Freezing Drizzle: Dense
+                61: '🌦️', // Rain: Slight
+                63: '🌧️', // Rain: Moderate
+                65: '🌧️', // Rain: Heavy
+                66: '🌧️', // Freezing Rain: Light
+                67: '🌧️', // Freezing Rain: Heavy
+                71: '🌨️', // Snow fall: Slight
+                73: '🌨️', // Snow fall: Moderate
+                75: '🌨️', // Snow fall: Heavy
+                77: '🌨️', // Snow grains
+                80: '🌦️', // Rain showers: Slight
+                81: '🌧️', // Rain showers: Moderate
+                82: '🌧️', // Rain showers: Violent
+                85: '🌨️', // Snow showers: Slight
+                86: '🌨️', // Snow showers: Heavy
+                95: '⛈️', // Thunderstorm: Slight/Moderate
+                96: '⛈️', // Thunderstorm with slight hail
+                99: '⛈️'  // Thunderstorm with heavy hail
+            };
             let weatherStr = '--';
             if (typeof tmax === 'number' && typeof tmin === 'number') {
                 const tmaxF = Math.round(tmax * 9/5 + 32);
                 const tminF = Math.round(tmin * 9/5 + 32);
-                weatherStr = `${Math.round(tmax)}°/${Math.round(tmin)}°C (${tmaxF}°/${tminF}°F)`;
-                if (typeof rain === 'number') weatherStr += `, Rain: ${rain}%`;
+                const icon = weatherIcons[weatherCode] || '';
+                weatherStr = `${icon} ${tmaxF}°/${tminF}°F`;
             }
             document.getElementById(`weather-day-${item.day}`).textContent = weatherStr;
         } catch (e) {
