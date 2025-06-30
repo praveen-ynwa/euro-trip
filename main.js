@@ -168,7 +168,7 @@ function addGoogleMapsLinksToHighlights(highlightsText, cityContext) {
 
 function populateItineraryTable() {
     const tableBody = document.getElementById('itinerary-table-body');
-    tableBody.innerHTML = ''; // Clear existing content
+    tableBody.innerHTML = '';
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
@@ -180,7 +180,7 @@ function populateItineraryTable() {
         if (itemDate.getTime() === today.getTime()) {
             row.classList.add('current-day-highlight');
         }
-         
+
         // Extract main city from the route string for Google Maps link
         const mainCityMatch = item.route.match(/^(.*?)(?:\s*→.*)?$/);
         const mainCity = mainCityMatch ? mainCityMatch[1].trim() : item.route;
@@ -189,15 +189,36 @@ function populateItineraryTable() {
         // Process highlights to add links for specific places/restaurants
         const processedHighlights = addGoogleMapsLinksToHighlights(item.highlights, mainCity);
 
+        // Responsive/mobile-friendly: Use a card layout on small screens
         row.innerHTML = `
-            <td class="p-3 font-medium">${item.day}</td>
-            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
-            <td class="p-3">${processedHighlights}</td>
-            <td class="p-3">${item.stay}</td>
+            <td class="p-3 font-medium hidden sm:table-cell">${item.day}</td>
+            <td class="p-3 hidden sm:table-cell">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
+            <td class="p-3 hidden sm:table-cell"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
+            <td class="p-3 hidden sm:table-cell">${processedHighlights}</td>
+            <td class="p-3 hidden sm:table-cell">${item.stay}</td>
+            <td class="block sm:hidden p-0 m-0 border-0" colspan="100%">
+                <div class="rounded-lg shadow bg-white p-3 mb-2 w-full">
+                    <div class="flex justify-between items-center mb-1">
+                        <span class="font-bold">Day ${item.day}</span>
+                        <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
+                    </div>
+                    <div class="mb-1"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></div>
+                    <div class="mb-1 text-sm">${processedHighlights}</div>
+                    <div class="text-xs text-gray-600">Stay: <span class="font-semibold">${item.stay}</span></div>
+                </div>
+            </td>
         `;
         tableBody.appendChild(row);
     });
+
+    // Hide table header on mobile for full width cards
+    const table = document.getElementById('itinerary-table');
+    if (table) {
+        const thead = table.querySelector('thead');
+        if (thead) {
+            thead.classList.add('hidden', 'sm:table-header-group');
+        }
+    }
 }
 
 function displayTodayItinerary() {
