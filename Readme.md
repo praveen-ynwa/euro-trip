@@ -29,8 +29,8 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 2   | <b>Jul 12:</b> Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       | Le Méridien Paris Arc De Triomphe, Conf #81765448 |
 | 3   | <b>Jul 13:</b> Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    | Courtyard Brussels, Conf #82383330 |
 | 4   | <b>Jul 14:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      | Grand Hotel Casselbergh Bruges, see .eml |
-| 5   | <b>Jul 15:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   | Renaissance Amsterdam Hotel, Conf #85533458 |
-| 6   | <b>Jul 16:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   | Renaissance Amsterdam Hotel, Conf #85533458 |
+| 5   | <b>Jul 15:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio, Conf #90210066 |
+| 6   | <b>Jul 16:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio, Conf #90210066 |
 | 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel, Conf #85548222 |
 | 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  | Moxy Luxembourg Airport, Conf #85559601 |
 | 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   | Frankfurt Marriott Hotel, Conf #85578530 |
@@ -49,14 +49,14 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 1–2    | Paris       | Le Méridien Paris Arc De Triomphe     | 406.10                  | **€36/day (valet only)**           |
 | 3      | Brussels    | Courtyard Brussels                    | 130.89                  | **€25/day (weekday)** / **€12.50 (weekend)** |
 | 4      | Bruges      | Grand Hotel Casselbergh Bruges        | 197.70* + 9.33**        | **€30/day (underground, secure)** |
-| 5–6    | Amsterdam   | Renaissance Amsterdam Hotel           | 659.89                  | **€30/day (limited hotel spaces)** |
+| 5–6    | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio, Conf #90210066           | 377.10                  | **€30/day (limited hotel spaces)** |
 | 7      | Cologne     | Cologne Marriott Hotel (Points)       | 0.00                    | **€30/day (on-site garage)**       |
 | 8      | Luxembourg  | Moxy Luxembourg Airport               | 139.00                  | **Discounted airport parking (Car Park A/B)** |
 | 9      | Frankfurt   | Frankfurt Marriott Hotel              | 164.65                  | **€29/day (Westendgate garage)**   |
 | 10-11  | Interlaken      | Hotel Bernerhof, Conf #WSP202668644           | 511.00 CHF               | **On-site parking available (fee applies)** |
 | 12  | Montreux        | Grand Hotel Suisse Majestic, Conf #87355071    | 370.00 CHF               | **Underground parking available (fee applies)** |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
-|     |              | **Total (Confirmed)**                  | **1,708.66** EUR / **$1,830.00** USD + **881.00 CHF** |                   |
+|     |              | **Total (Confirmed)**                  | **1,426.87** EUR / **$1,530.00** USD + **881.00 CHF** |                   |
 
 *Paid to Expedia in USD, to be converted to EUR at property
 **Locally collected fee in USD, to be paid at property
