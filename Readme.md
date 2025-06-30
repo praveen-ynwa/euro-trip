@@ -49,7 +49,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 3      | Brussels    | Courtyard Brussels                    | 130.89                  | **€25/day (weekday)** / **€12.50 (weekend)** |
 | 4      | Bruges      | Grand Hotel Casselbergh Bruges        | 197.70* + 9.33**        | **€30/day (underground, secure)** |
 | 5–6    | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio           | 377.10                  | **€30/day (limited hotel spaces)** |
-| 7      | Cologne     | Cologne Marriott Hotel (Points)       | 0.00                    | **€30/day (on-site garage)**       |
+| 7      | Cologne     | Cologne Marriott Hotel       | 0.00                    | **€30/day (on-site garage)**       |
 | 8      | Luxembourg  | Moxy Luxembourg Airport               | 139.00                  | **Discounted airport parking (Car Park A/B)** |
 | 9      | Frankfurt   | Frankfurt Marriott Hotel              | 164.65                  | **€29/day (Westendgate garage)**   |
 | 10-11  | Interlaken      | Hotel Bernerhof           | 511.00 CHF               | **On-site parking available (fee applies)** |

@@ -217,7 +217,7 @@ function displayTodayItinerary() {
             <p class="mt-2 text-gray-700"><strong>Route:</strong> ${todayItem.route}</p>
             <p class="mt-1 text-gray-700"><strong>Highlights:</strong> ${processedHighlights}</p>
             <p class="mt-1 text-gray-700"><strong>Overnight Stay:</strong> ${todayItem.stay}</p>
-            <p class="mt-1 text-gray-700"><strong>Confirmation:</strong> ${todayItem.confirmation}</p>
+            <p class="mt-1 text-gray-700"><strong>Hotel:</strong> ${todayItem.hotel || ''}</p>
         `;
     } else {
         card.innerHTML = `<p>No itinerary scheduled for today. You might be between trip dates!</p>`;
