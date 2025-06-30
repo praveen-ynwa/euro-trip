@@ -28,7 +28,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 1   | <b>Jul 11:</b> Paris                  | Arrive, evening stroll, Seine views     | Paris       | Le Méridien Paris Arc De Triomphe |
 | 2   | <b>Jul 12:</b> Mont-Saint-Michel      | Day trip, abbey visit, return to Paris  | Paris       | Le Méridien Paris Arc De Triomphe |
 | 3   | <b>Jul 13:</b> Paris → Brussels       | Eiffel Tower, drive, Grand Place        | Brussels    | Courtyard Brussels |
-| 4   | <b>Jul 14:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      | Grand Hotel Casselbergh Bruges, see .eml |
+| 4   | <b>Jul 14:</b> Brussels → Bruges      | Ghent stop, Bruges canals & Belfry      | Bruges      | Grand Hotel Casselbergh Bruges |
 | 5   | <b>Jul 15:</b> Bruges → Amsterdam     | Antwerp stop, museums, canal cruise     | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio |
 | 6   | <b>Jul 16:</b> Zaanse Schans, Giethoorn| Windmills, boat tour, return to AMS     | Amsterdam   | Apollo Hotel Amsterdam, Tribute Portfolio |
 | 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel |
