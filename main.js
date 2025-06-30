@@ -23,7 +23,7 @@ const tripData = {
                 { city: "Cologne", hotel: "Cologne Marriott Hotel (Points)", chargeEUR: 0.00, chargeCHF: 0, parking: "€30/day (on-site garage)" },
                 { city: "Luxembourg", hotel: "Moxy Luxembourg Airport", chargeEUR: 139.00, chargeCHF: 0, parking: "Discounted airport parking (Car Park A/B)" },
                 { city: "Frankfurt", hotel: "Frankfurt Marriott Hotel", chargeEUR: 164.65, chargeCHF: 0, parking: "€29/day (Westendgate garage)" },
-                { city: "Interlaken", hotel: "Boutique Hotel Bellevue", chargeEUR: 0, chargeCHF: 932.00, parking: "On-site parking available (fee applies)" },
+                { city: "Interlaken", hotel: "Hotel Bernerhof, Conf #WSP202668644", chargeEUR: 0, chargeCHF: 511.00, parking: "On-site parking available (fee applies)" },
                 { city: "Montreux", hotel: "Grand Hotel Suisse Majestic", chargeEUR: 0, chargeCHF: 370.00, parking: "Underground parking available (fee applies)" },
             ],
             recommendations: [
