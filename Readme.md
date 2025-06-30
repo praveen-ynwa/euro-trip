@@ -34,8 +34,8 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 7   | <b>Jul 17:</b> Amsterdam → Cologne    | Düsseldorf, Rhine, Cathedral            | Cologne     | Cologne Marriott Hotel, Conf #85548222 |
 | 8   | <b>Jul 18:</b> Cologne → Luxembourg   | Cochem/Trier, Old Town, Casemates       | Luxembourg  | Moxy Luxembourg Airport, Conf #85559601 |
 | 9   | <b>Jul 19:</b> Luxembourg → Frankfurt | Rhine Valley, Römerberg, Palmengarten   | Frankfurt   | Frankfurt Marriott Hotel, Conf #85578530 |
-| 10  | <b>Jul 20:</b> Frankfurt → Interlaken | Heidelberg, Black Forest, Chapel Bridge | Interlaken  | Boutique Hotel Bellevue, Conf #58571 |
-| 11  | <b>Jul 21:</b> Interlaken              | Jungfraujoch, Alps, Lake Brienz         | Interlaken  | Boutique Hotel Bellevue, Conf #58571 |
+| 10  | <b>Jul 20:</b> Frankfurt → Interlaken | Heidelberg, Black Forest, Chapel Bridge | Interlaken  | Hotel Bernerhof, Conf #WSP202668644 |
+| 11  | <b>Jul 21:</b> Interlaken              | Jungfraujoch, Alps, Lake Brienz         | Interlaken  | Hotel Bernerhof, Conf #WSP202668644 |
 | 12  | <b>Jul 22:</b> Interlaken → Montreux  | Spiez, Gruyères, Lavaux, Chillon        | Montreux    | Grand Hotel Suisse Majestic, Conf #87355071 |
 | 13  | <b>Jul 23:</b> Montreux → Paris       | Lausanne, Dijon, Fontainebleau          | Paris       |  |
 | 14  | <b>Jul 24:</b> Paris                  | Montmartre, Arc de Triomphe, depart     |        |  |
@@ -53,7 +53,7 @@ _Countries: France, Switzerland, Germany, Belgium, Netherlands, Luxembourg_
 | 7      | Cologne     | Cologne Marriott Hotel (Points)       | 0.00                    | **€30/day (on-site garage)**       |
 | 8      | Luxembourg  | Moxy Luxembourg Airport               | 139.00                  | **Discounted airport parking (Car Park A/B)** |
 | 9      | Frankfurt   | Frankfurt Marriott Hotel              | 164.65                  | **€29/day (Westendgate garage)**   |
-| 10-11  | Interlaken      | Boutique Hotel Bellevue, Conf #58571           | 932.00 CHF               | **On-site parking available (fee applies)** |
+| 10-11  | Interlaken      | Hotel Bernerhof, Conf #WSP202668644           | 511.00 CHF               | **On-site parking available (fee applies)** |
 | 12  | Montreux        | Grand Hotel Suisse Majestic, Conf #87355071    | 370.00 CHF               | **Underground parking available (fee applies)** |
 | 13  | Paris        | Le Méridien Paris Arc De Triomphe      | (Not Booked)       |                   |
 |     |              | **Total (Confirmed)**                  | **1,708.66** EUR / **$1,830.00** USD + **1,302.00 CHF** |                   |
