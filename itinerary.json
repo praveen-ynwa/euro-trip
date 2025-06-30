@@ -151,7 +151,7 @@
     "duration": "~6-7h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 406.10,
+    "chargeEUR": 0,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)"
   },
@@ -163,7 +163,7 @@
     "duration": "~1h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 406.10,
+    "chargeEUR": 0,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)"
   }
