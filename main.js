@@ -122,23 +122,36 @@ function setupTabs() {
 function createRouteMap() {
     const container = document.getElementById('route-map-container');
     container.innerHTML = '';
-    tripData.routeMap.forEach((city, index) => {
-        const cityEl = document.createElement('div');
-        cityEl.className = 'flex items-center';
-        
-        const cityName = document.createElement('div');
-        cityName.className = 'py-2 px-3 bg-white rounded-lg shadow-sm border border-gray-200 transition-all duration-300 hover:shadow-md hover:border-blue-400';
-        cityName.textContent = city;
-        cityEl.appendChild(cityName);
+    const route = tripData.routeMap;
+    route.forEach((city, index) => {
+        // Main city node
+        const cityNode = document.createElement('div');
+        cityNode.className = 'flex flex-col items-center mx-2 my-2';
 
-        if (index < tripData.routeMap.length - 1) {
+        // Numbered circle
+        const circle = document.createElement('div');
+        circle.className = `flex items-center justify-center rounded-full w-10 h-10 font-bold text-white text-lg shadow-md border-2 ${index === 0 ? 'bg-green-500 border-green-700' : index === route.length-1 ? 'bg-blue-500 border-blue-700' : 'bg-gray-400 border-gray-500'} ${index === 0 ? 'animate-pulse' : ''}`;
+        circle.textContent = index + 1;
+        cityNode.appendChild(circle);
+
+        // City name
+        const cityLabel = document.createElement('div');
+        cityLabel.className = 'mt-1 text-xs md:text-sm font-medium text-center';
+        cityLabel.textContent = city;
+        cityNode.appendChild(cityLabel);
+
+        container.appendChild(cityNode);
+
+        // Arrow (except after last city)
+        if (index < route.length - 1) {
             const arrow = document.createElement('div');
-            arrow.className = 'mx-2 md:mx-4 text-blue-400 font-bold text-xl';
-            arrow.textContent = '→';
-            cityEl.appendChild(arrow);
+            arrow.className = 'flex flex-col items-center';
+            arrow.innerHTML = `<span class="text-2xl text-blue-400">⇨</span>`;
+            container.appendChild(arrow);
         }
-        container.appendChild(cityEl);
     });
+    // Responsive flex wrap
+    container.className = 'flex flex-wrap items-center justify-center gap-y-4 gap-x-2 md:gap-x-4 py-2';
 }
 
 function addGoogleMapsLinksToHighlights(highlightsText, cityContext) {
@@ -169,49 +182,55 @@ function addGoogleMapsLinksToHighlights(highlightsText, cityContext) {
 
 function populateItineraryTable() {
     const tableBody = document.getElementById('itinerary-table-body');
+    const mobileCards = document.getElementById('itinerary-mobile-cards');
     tableBody.innerHTML = '';
+    if (mobileCards) mobileCards.innerHTML = '';
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
     tripData.itinerary.forEach(item => {
+        // --- Desktop/tablet row ---
         const row = document.createElement('tr');
-        row.className = 'border-b border-gray-200 hover:bg-gray-50';
+        row.className = 'border-b border-gray-200 hover:bg-gray-50 hidden sm:table-row';
         const itemDate = new Date(item.date);
-
         if (itemDate.getTime() === today.getTime()) {
             row.classList.add('current-day-highlight');
         }
-
         // Extract main city from the route string for Google Maps link
         const mainCityMatch = item.route.match(/^(.*?)(?:\s*→.*)?$/);
         const mainCity = mainCityMatch ? mainCityMatch[1].trim() : item.route;
         const googleMapsLinkForRoute = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mainCity)}`;
-
         // Process highlights to add links for specific places/restaurants
         const processedHighlights = addGoogleMapsLinksToHighlights(item.highlights, mainCity);
-
-        // Responsive/mobile-friendly: Use a card layout on small screens
         row.innerHTML = `
-            <td class="p-3 font-medium hidden sm:table-cell">${item.day}</td>
-            <td class="p-3 hidden sm:table-cell">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3 hidden sm:table-cell">${item.route}</td>
-            <td class="p-3 hidden sm:table-cell">${processedHighlights}</td>
-            <td class="p-3 hidden sm:table-cell">${item.stay}</td>
-            <td class="block sm:hidden p-0 m-0 border-0" colspan="100%">
-                <div class="rounded-lg shadow bg-white p-3 mb-2 w-full">
-                    <div class="flex justify-between items-center mb-1">
-                        <span class="font-bold">Day ${item.day}</span>
-                        <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
-                    </div>
-                    <div class="mb-1"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></div>
-                    <div class="mb-1 text-sm">${processedHighlights}</div>
-                    <div class="text-xs text-gray-600">Stay: <span class="font-semibold">${item.stay}</span></div>
-                </div>
-            </td>
+            <td class="p-3 font-medium">${item.day}</td>
+            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
+            <td class="p-3"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
+            <td class="p-3">${processedHighlights}</td>
+            <td class="p-3">${item.stay}</td>
         `;
         tableBody.appendChild(row);
-    });
 
+        // --- Mobile card ---
+        if (mobileCards) {
+            const card = document.createElement('div');
+            card.className = 'rounded-lg shadow bg-white p-4 border border-gray-200';
+            if (itemDate.getTime() === today.getTime()) {
+                card.classList.add('ring-2', 'ring-blue-400');
+            }
+            card.innerHTML = `
+                <div class="flex justify-between items-center mb-2">
+                    <span class="font-bold text-lg">Day ${item.day}</span>
+                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
+                </div>
+                <div class="mb-1"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline text-base font-semibold">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></div>
+                <div class="mb-1 text-sm">${processedHighlights}</div>
+                <div class="text-xs text-gray-600 mb-1">Stay: <span class="font-semibold">${item.stay}</span></div>
+                <div class="text-xs text-gray-600 mb-1">Hotel: <span class="font-semibold">${item.hotel || ''}</span></div>
+            `;
+            mobileCards.appendChild(card);
+        }
+    });
     // Hide table header on mobile for full width cards
     const table = document.getElementById('itinerary-table');
     if (table) {
