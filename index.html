@@ -114,7 +114,7 @@
                     <h2 class="text-2xl font-bold mb-4">Full Trip Itinerary</h2>
                      <p class="mb-4 text-gray-600">This section provides a complete day-by-day schedule for your European road trip. Today's date is automatically highlighted to help you quickly identify your current position in the journey. Each row details the route, key activities, and your accommodation for the night. Click on a city in the "Route / City" column to view it on Google Maps.</p>
                     <div class="overflow-x-auto">
-                        <table class="w-full text-left text-sm">
+                        <table class="w-full text-left text-sm hidden sm:table">
                             <thead class="hidden md:table-header-group bg-gray-100 text-gray-600 uppercase">
                                 <tr>
                                     <th class="p-3">Day</th>
@@ -127,6 +127,11 @@
                             <tbody id="itinerary-table-body">
                             </tbody>
                         </table>
+                        
+                        <!-- Mobile cards for Quick Reference -->
+                        <div id="itinerary-mobile-cards" class="block sm:hidden mt-4 space-y-4">
+                            <!-- Populated by main.js for mobile cards -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -231,6 +236,6 @@
         </main>
     </div>
 
-    <script src="main.js"></script>
+    <script src="main.js?v=100"></script>
 </body>
 </html>

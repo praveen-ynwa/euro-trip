@@ -212,38 +212,20 @@ function populateItineraryTable() {
 
         // --- Mobile card ---
         if (mobileCards) {
+
             const card = document.createElement('div');
-            card.className = 'rounded-lg shadow bg-white p-4 border border-gray-200 mb-4';
-            if (itemDate.getTime() === today.getTime()) {
-                card.classList.add('ring-2', 'ring-blue-400');
-            }
+            card.className = 'rounded-lg shadow bg-white p-4 border border-gray-200';
             card.innerHTML = `
-                <div class="mb-2">
-                    <div class="text-xs text-gray-500 uppercase tracking-wide">Day ${item.day}</div>
-                    <div class="text-lg font-bold text-blue-700">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}</div>
+                <div class="flex justify-between items-center mb-2">
+                    <span class="font-bold text-lg">Day ${item.day}</span>
+                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
                 </div>
-                <div class="mb-1 text-base font-semibold flex items-center">
-                    <span>${item.route}</span>
-                </div>
-                <div class="mb-1 text-sm font-semibold text-gray-700">${item.keyActivity || ''}</div>
+                <div class="mb-1 text-base font-semibold">${item.route}</div>
                 <div class="mb-1 text-sm">${processedHighlights}</div>
-                <div class="flex flex-col gap-y-1 mt-2">
-                    <div class="text-xs text-gray-600">Stay: <span class="font-semibold">${item.stay}</span></div>
-                    <div class="text-xs text-gray-600">Hotel: <span class="font-semibold">${item.hotel || ''}</span></div>
-                    <div class="text-xs text-gray-600">Weather: <span id="weather-day-mobile-${item.day}">--</span></div>
-                </div>
             `;
             mobileCards.appendChild(card);
         }
     });
-    // Hide table header on mobile for full width cards
-    const table = document.getElementById('itinerary-table');
-    if (table) {
-        const thead = table.querySelector('thead');
-        if (thead) {
-            thead.classList.add('hidden', 'sm:table-header-group');
-        }
-    }
 }
 
 function displayTodayItinerary() {

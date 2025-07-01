@@ -61,20 +61,4 @@ td, th { font-size: 0.95rem; }
     td, th { font-size: 0.85rem; }
 }
 
-/* Card layout for itinerary table on mobile */
-@media (max-width: 768px) {
-    #itinerary-table-body tr {
-        display: block;
-        margin-bottom: 1.5rem;
-        background: #fff;
-        border-radius: 0.5rem;
-        box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-        padding: 1rem 0.5rem;
-    }
-    #itinerary-table-body td {
-        display: block;
-        width: 100%;
-        padding: 0.5rem 0;
-        border: none;
-    }
-}
+
