@@ -491,17 +491,24 @@ async function populateWeatherForQuickReference() {
             }
             const weatherCell = document.getElementById(`weather-day-${item.day}`);
             if (weatherCell) weatherCell.textContent = weatherStr;
+            const weatherMobileCell = document.getElementById(`weather-day-mobile-${item.day}`);
+            if (weatherMobileCell) weatherMobileCell.textContent = weatherStr;
         } catch (e) {
             const weatherCell = document.getElementById(`weather-day-${item.day}`);
             if (weatherCell) weatherCell.textContent = '--';
+            const weatherMobileCell = document.getElementById(`weather-day-mobile-${item.day}`);
+            if (weatherMobileCell) weatherMobileCell.textContent = '--';
         }
     }
 }
 
 function populateQuickReferenceTable() {
     const tableBody = document.getElementById('quickref-table-body');
+    const mobileCards = document.getElementById('quickref-mobile-cards');
     tableBody.innerHTML = '';
+    if (mobileCards) mobileCards.innerHTML = '';
     tripData.itinerary.forEach(item => {
+        // --- Desktop/tablet row ---
         const row = document.createElement('tr');
         row.innerHTML = `
             <td class="p-3">${item.day}</td>
@@ -512,5 +519,22 @@ function populateQuickReferenceTable() {
             <td class="p-3" id="weather-day-${item.day}">--</td>
         `;
         tableBody.appendChild(row);
+        // --- Mobile card ---
+        if (mobileCards) {
+            const card = document.createElement('div');
+            card.className = 'rounded-lg shadow bg-white p-4 border border-gray-200';
+            card.innerHTML = `
+                <div class="flex justify-between items-center mb-2">
+                    <span class="font-bold text-lg">Day ${item.day}</span>
+                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+                </div>
+                <div class="mb-1 text-base font-semibold">${item.route}</div>
+                <div class="mb-1 text-sm">${item.keyActivity || ''}</div>
+                <div class="text-xs text-gray-600 mb-1">Stay: <span class="font-semibold">${item.stay || ''}</span></div>
+                <div class="text-xs text-gray-600 mb-1">Hotel: <span class="font-semibold">${item.hotel || ''}</span></div>
+                <div class="text-xs text-gray-600">Weather: <span id="weather-day-mobile-${item.day}">--</span></div>
+            `;
+            mobileCards.appendChild(card);
+        }
     });
 }
