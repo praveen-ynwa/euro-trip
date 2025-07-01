@@ -194,7 +194,7 @@ function populateItineraryTable() {
         row.innerHTML = `
             <td class="p-3 font-medium hidden sm:table-cell">${item.day}</td>
             <td class="p-3 hidden sm:table-cell">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3 hidden sm:table-cell"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
+            <td class="p-3 hidden sm:table-cell">${item.route}</td>
             <td class="p-3 hidden sm:table-cell">${processedHighlights}</td>
             <td class="p-3 hidden sm:table-cell">${item.stay}</td>
             <td class="block sm:hidden p-0 m-0 border-0" colspan="100%">
