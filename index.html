@@ -23,7 +23,7 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <div class="container mx-auto p-4 md:p-8">
+    <div class="container mx-auto px-2 sm:px-4 md:px-8 lg:max-w-6xl">
         
         <header class="text-center mb-8">
             <h1 class="text-4xl font-bold text-gray-900">Self-Drive Euro Trip</h1>
@@ -52,19 +52,19 @@
 
         <main>
             <section id="dashboard" class="section active">
-                <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Today's Plan</h2>
                     <div id="today-itinerary-card" class="p-4 bg-blue-50 rounded-lg">
                         <p>Loading today's details...</p>
                     </div>
                 </div>
-                 <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                 <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Route Overview</h2>
                     <div id="route-map-container" class="flex flex-wrap items-center justify-center text-sm md:text-base">
                     </div>
                 </div>
                 <!-- Quick Reference Table -->
-                <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Trip Itinerary (Quick Reference)</h2>
                     <div class="overflow-x-auto">
                         <table class="w-full text-left text-sm">
@@ -97,8 +97,8 @@
                         </table>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-2 gap-8">
-                   <div class="bg-white p-6 rounded-lg shadow-sm">
+                <div class="grid md:grid-cols-2 gap-4 md:gap-8">
+                   <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                         <h2 class="text-2xl font-bold mb-4">Quick Stats</h2>
                         <ul class="space-y-3">
                             <li class="flex justify-between items-center"><span>Total Duration:</span><span class="font-bold text-blue-600">14 Days</span></li>
@@ -106,7 +106,7 @@
                             <li class="flex justify-between items-center"><span>Total Confirmed Hotel Cost:</span><span id="total-cost" class="font-bold text-blue-600">€0.00</span></li>
                         </ul>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                         <h2 class="text-2xl font-bold mb-4">Scenic Detours</h2>
                         <ul class="list-disc list-inside space-y-2 text-gray-700">
                             <li><b>Black Forest, Germany:</b> Lush forests, scenic drives</li>
@@ -119,7 +119,7 @@
             </section>
             
             <section id="itinerary" class="section">
-                <div class="bg-white p-6 rounded-lg shadow-sm">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                     <h2 class="text-2xl font-bold mb-4">Full Trip Itinerary</h2>
                      <p class="mb-4 text-gray-600">This section provides a complete day-by-day schedule for your European road trip. Today's date is automatically highlighted to help you quickly identify your current position in the journey. Each row details the route, key activities, and your accommodation for the night. Click on a city in the "Route / City" column to view it on Google Maps.</p>
                     <div class="overflow-x-auto">
@@ -141,14 +141,14 @@
             </section>
 
             <section id="bookings" class="section">
-                 <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                 <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Hotel Cost Analysis</h2>
                      <p class="mb-4 text-gray-600">Here you can find a visual breakdown of your accommodation expenses. The bar chart below shows the total hotel charges per city, making it easy to see how costs are distributed across your trip. This helps in understanding the budget and planning expenses for different locations.</p>
                     <div class="chart-container">
                         <canvas id="costsChart"></canvas>
                     </div>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                     <h2 class="text-2xl font-bold mb-4">Hotel Reservations & Parking</h2>
                      <p class="mb-4 text-gray-600">This table lists all your confirmed hotel bookings, including the total cost and specific details about parking fees and availability at each location. Each hotel name is clickable to view its location on Google Maps.</p>
                     <div class="overflow-x-auto">
@@ -170,7 +170,7 @@
             </section>
 
             <section id="explore" class="section">
-                <div class="bg-white p-6 rounded-lg shadow-sm">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                     <h2 class="text-2xl font-bold mb-4">Explore Recommendations</h2>
                     <p class="mb-4 text-gray-600">Discover curated recommendations for hotels, restaurants, and experiences. Use the filter to select a city and find the best spots for your stay. Each recommendation also includes a link to its location on Google Maps.</p>
                     <div class="mb-6">
@@ -184,7 +184,7 @@
             </section>
 
             <section id="places" class="section">
-                <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Restaurants</h2>
                     <p class="mb-4 text-gray-600">Explore a list of recommended restaurants across your trip cities. Click the globe icon to view their locations on Google Maps.</p>
                     <div class="overflow-x-auto">
@@ -202,7 +202,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-lg shadow-sm mb-8">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm mb-8">
                     <h2 class="text-2xl font-bold mb-4">Attractions</h2>
                     <p class="mb-4 text-gray-600">Discover key attractions along your route. Click the globe icon to find them on Google Maps.</p>
                     <div class="overflow-x-auto">
@@ -220,7 +220,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-6 rounded-lg shadow-sm">
+                <div class="bg-white p-4 sm:p-6 rounded-lg shadow-sm">
                     <h2 class="text-2xl font-bold mb-4">Scenic Drives</h2>
                     <p class="mb-4 text-gray-600">Plan your scenic detours with these recommended routes. Click the globe icon to open the full route on Google Maps.</p>
                     <div class="overflow-x-auto">
