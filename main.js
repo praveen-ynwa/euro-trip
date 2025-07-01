@@ -78,6 +78,7 @@ async function initializeDashboard() {
         if (!response.ok) throw new Error('Failed to load itinerary.json');
         const itineraryData = await response.json();
         tripData.itinerary = itineraryData;
+        populateQuickReferenceTable();
     } catch (e) {
         console.error('Error loading itinerary.json:', e);
         tripData.itinerary = [];
@@ -439,17 +440,32 @@ async function populateWeatherForQuickReference() {
         'Luxembourg': { lat: 49.6116, lon: 6.1319 },
         'Frankfurt': { lat: 50.1109, lon: 8.6821 },
         'Interlaken': { lat: 46.6863, lon: 7.8632 },
-        'Montreux': { lat: 46.4381, lon: 6.9116 }
+        'Montreux': { lat: 46.4381, lon: 6.9116 },
+        'Düsseldorf': { lat: 51.2277, lon: 6.7735 },
+        'Trier': { lat: 49.7499, lon: 6.6371 },
+        'Lucerne': { lat: 47.0502, lon: 8.3093 }
     };
     for (const item of tripData.itinerary) {
-        // Extract main city for weather (use first city in route string)
-        let city = item.route.split('→')[0].split(',')[0].trim();
+        // Extract main city for weather (use first city in route string, or fallback to stay)
+        let city = '';
+        if (item.route.includes('→')) {
+            city = item.route.split('→')[0].split(',')[0].trim();
+        } else if (item.route.includes(',')) {
+            city = item.route.split(',')[0].trim();
+        } else {
+            city = item.route.trim();
+        }
+        // Special cases for known detours or alternate names
         if (city === 'Zaanse Schans' || city === 'Giethoorn') city = 'Amsterdam';
+        if (city === 'Jungfraujoch') city = 'Interlaken';
+        if (!cityCoords[city] && item.stay && cityCoords[item.stay]) city = item.stay;
+        if (!cityCoords[city]) {
+            // Fallback: try to use the first city in the stay field
+            city = (item.stay && cityCoords[item.stay]) ? item.stay : city;
+        }
         if (!cityCoords[city]) continue;
         const { lat, lon } = cityCoords[city];
-        // Format date as YYYY-MM-DD
         const date = item.date;
-        // Open-Meteo API: daily forecast for max/min temp, rain, and weathercode
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}`;
         try {
             const resp = await fetch(url);
@@ -458,36 +474,13 @@ async function populateWeatherForQuickReference() {
             const tmax = data.daily.temperature_2m_max?.[0];
             const tmin = data.daily.temperature_2m_min?.[0];
             const weatherCode = data.daily.weathercode?.[0];
-            // Map Open-Meteo weather codes to emoji/icons
             const weatherIcons = {
-                0: '☀️', // Clear sky
-                1: '🌤️', // Mainly clear
-                2: '⛅', // Partly cloudy
-                3: '☁️', // Overcast
-                45: '🌫️', // Fog
-                48: '🌫️', // Depositing rime fog
-                51: '🌦️', // Drizzle: Light
-                53: '🌦️', // Drizzle: Moderate
-                55: '🌦️', // Drizzle: Dense
-                56: '🌧️', // Freezing Drizzle: Light
-                57: '🌧️', // Freezing Drizzle: Dense
-                61: '🌦️', // Rain: Slight
-                63: '🌧️', // Rain: Moderate
-                65: '🌧️', // Rain: Heavy
-                66: '🌧️', // Freezing Rain: Light
-                67: '🌧️', // Freezing Rain: Heavy
-                71: '🌨️', // Snow fall: Slight
-                73: '🌨️', // Snow fall: Moderate
-                75: '🌨️', // Snow fall: Heavy
-                77: '🌨️', // Snow grains
-                80: '🌦️', // Rain showers: Slight
-                81: '🌧️', // Rain showers: Moderate
-                82: '🌧️', // Rain showers: Violent
-                85: '🌨️', // Snow showers: Slight
-                86: '🌨️', // Snow showers: Heavy
-                95: '⛈️', // Thunderstorm: Slight/Moderate
-                96: '⛈️', // Thunderstorm with slight hail
-                99: '⛈️'  // Thunderstorm with heavy hail
+                0: '☀️', 1: '🌤️', 2: '⛅', 3: '☁️', 45: '🌫️', 48: '🌫️',
+                51: '🌦️', 53: '🌦️', 55: '🌦️', 56: '🌧️', 57: '🌧️',
+                61: '🌦️', 63: '🌧️', 65: '🌧️', 66: '🌧️', 67: '🌧️',
+                71: '🌨️', 73: '🌨️', 75: '🌨️', 77: '🌨️',
+                80: '🌦️', 81: '🌧️', 82: '🌧️', 85: '🌨️', 86: '🌨️',
+                95: '⛈️', 96: '⛈️', 99: '⛈️'
             };
             let weatherStr = '--';
             if (typeof tmax === 'number' && typeof tmin === 'number') {
@@ -496,9 +489,28 @@ async function populateWeatherForQuickReference() {
                 const icon = weatherIcons[weatherCode] || '';
                 weatherStr = `${icon} ${tmaxF}°/${tminF}°F`;
             }
-            document.getElementById(`weather-day-${item.day}`).textContent = weatherStr;
+            const weatherCell = document.getElementById(`weather-day-${item.day}`);
+            if (weatherCell) weatherCell.textContent = weatherStr;
         } catch (e) {
-            document.getElementById(`weather-day-${item.day}`).textContent = '--';
+            const weatherCell = document.getElementById(`weather-day-${item.day}`);
+            if (weatherCell) weatherCell.textContent = '--';
         }
     }
+}
+
+function populateQuickReferenceTable() {
+    const tableBody = document.getElementById('quickref-table-body');
+    tableBody.innerHTML = '';
+    tripData.itinerary.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td class="p-3">${item.day}</td>
+            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}: ${item.route}</td>
+            <td class="p-3">${item.keyActivity || ''}</td>
+            <td class="p-3">${item.stay || ''}</td>
+            <td class="p-3">${item.hotel || ''}</td>
+            <td class="p-3" id="weather-day-${item.day}">--</td>
+        `;
+        tableBody.appendChild(row);
+    });
 }
