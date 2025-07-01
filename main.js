@@ -199,13 +199,12 @@ function populateItineraryTable() {
         // Extract main city from the route string for Google Maps link
         const mainCityMatch = item.route.match(/^(.*?)(?:\s*→.*)?$/);
         const mainCity = mainCityMatch ? mainCityMatch[1].trim() : item.route;
-        const googleMapsLinkForRoute = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mainCity)}`;
         // Process highlights to add links for specific places/restaurants
         const processedHighlights = addGoogleMapsLinksToHighlights(item.highlights, mainCity);
         row.innerHTML = `
             <td class="p-3 font-medium">${item.day}</td>
             <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3"><a href="${googleMapsLinkForRoute}" target="_blank" class="text-blue-600 hover:underline">${item.route}</a> <a href="${googleMapsLinkForRoute}" target="_blank" class="google-maps-icon" title="View on Google Maps">🌐</a></td>
+            <td class="p-3">${item.route}</td>
             <td class="p-3">${processedHighlights}</td>
             <td class="p-3">${item.stay}</td>
         `;
