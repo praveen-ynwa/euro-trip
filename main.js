@@ -92,7 +92,7 @@ async function initializeDashboard() {
     setupFilters();
     displayTodayItinerary();
     displayTotalCost();
-    createRouteMap();
+    createRouteStepper();
     populateWeatherForQuickReference();
 }
 
@@ -152,6 +152,51 @@ function createRouteMap() {
     });
     // Responsive flex wrap
     container.className = 'flex flex-wrap items-center justify-center gap-y-4 gap-x-2 md:gap-x-4 py-2';
+}
+
+function createRouteStepper() {
+    const container = document.getElementById('route-stepper');
+    if (!container) return;
+    container.innerHTML = '';
+    const route = tripData.routeMap;
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    route.forEach((city, index) => {
+        // Step dot
+        const step = document.createElement('div');
+        step.className = 'flex flex-col items-center';
+        // Dot
+        const dot = document.createElement('div');
+        dot.className = 'w-4 h-4 rounded-full border-2 border-blue-400 bg-white flex items-center justify-center';
+        // Highlight first, last, and current city
+        if (index === 0) {
+            dot.classList.add('bg-green-400', 'border-green-600');
+        } else if (index === route.length - 1) {
+            dot.classList.add('bg-blue-400', 'border-blue-600');
+        }
+        // If today matches this city (by route logic)
+        const todayItinerary = tripData.itinerary?.find(item => {
+            const mainCityMatch = item.route.match(/^(.*?)(?:\s*→.*)?$/);
+            const mainCity = mainCityMatch ? mainCityMatch[1].trim() : item.route;
+            return mainCity === city && new Date(item.date).getTime() === today.getTime();
+        });
+        if (todayItinerary) {
+            dot.classList.add('ring-2', 'ring-blue-400');
+        }
+        step.appendChild(dot);
+        // City label
+        const label = document.createElement('div');
+        label.className = 'mt-1 text-xs text-gray-600 text-center max-w-[70px] truncate';
+        label.textContent = city;
+        step.appendChild(label);
+        container.appendChild(step);
+        // Connector line (except after last city)
+        if (index < route.length - 1) {
+            const line = document.createElement('div');
+            line.className = 'w-8 h-0.5 bg-gray-300 mx-1 my-2';
+            container.appendChild(line);
+        }
+    });
 }
 
 function addGoogleMapsLinksToHighlights(highlightsText, cityContext) {

@@ -61,4 +61,27 @@ td, th { font-size: 0.95rem; }
     td, th { font-size: 0.85rem; }
 }
 
+/* Minimalist Route Stepper Styles */
+#route-stepper {
+  min-height: 48px;
+}
+#route-stepper .w-4.h-4 {
+  transition: box-shadow 0.2s;
+}
+#route-stepper .w-4.h-4.ring-2 {
+  box-shadow: 0 0 0 4px #60a5fa33;
+}
+#route-stepper .max-w-\[70px\] {
+  max-width: 70px;
+}
+#route-stepper .truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#route-stepper .w-8.h-0\.5 {
+  min-width: 2rem;
+  height: 2px;
+}
+
 
