@@ -218,7 +218,7 @@ function populateItineraryTable() {
             card.innerHTML = `
                 <div class="flex justify-between items-center mb-2">
                     <span class="font-bold text-lg">Day ${item.day}</span>
-                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
                 </div>
                 <div class="mb-1 text-base font-semibold">${item.route}</div>
                 <div class="mb-1 text-sm">${processedHighlights}</div>
@@ -532,7 +532,7 @@ function populateQuickReferenceTable() {
             card.innerHTML = `
                 <div class="flex justify-between items-center mb-2">
                     <span class="font-bold text-lg">Day ${item.day}</span>
-                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+                    <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
                 </div>
                 <div class="mb-1 text-base font-semibold">${item.route}</div>
                 <div class="mb-1 text-sm">${item.keyActivity || ''}</div>
