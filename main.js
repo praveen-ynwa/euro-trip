@@ -523,7 +523,7 @@ async function populateWeatherForQuickReference() {
         if (!cityCoords[city]) continue;
         const { lat, lon } = cityCoords[city];
         const date = item.date;
-        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}`;
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weathercode&timezone=Europe%2FBerlin&start_date=${date}&end_date=${date}&temperature_unit=fahrenheit`;
         try {
             const resp = await fetch(url);
             if (!resp.ok) throw new Error('No weather');
@@ -541,8 +541,8 @@ async function populateWeatherForQuickReference() {
             };
             let weatherStr = '--';
             if (typeof tmax === 'number' && typeof tmin === 'number') {
-                const tmaxF = Math.round(tmax * 9/5 + 32);
-                const tminF = Math.round(tmin * 9/5 + 32);
+                const tmaxF = tmax;
+                const tminF = tmin;
                 const icon = weatherIcons[weatherCode] || '';
                 weatherStr = `${icon} ${tmaxF}°/${tminF}°F`;
             }
