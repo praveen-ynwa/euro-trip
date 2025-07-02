@@ -300,11 +300,17 @@ function displayTodayItinerary() {
 function displayTotalCost() {
     const chfToEurRate = 1.02;
     // Use itinerary data for hotel costs
-    const totalCost = tripData.itinerary.filter(item => item.hotel).reduce((acc, item) => {
+    const totalHotelCost = tripData.itinerary.filter(item => item.hotel).reduce((acc, item) => {
         const chfInEur = item.chargeCHF * chfToEurRate;
         return acc + item.chargeEUR + chfInEur;
     }, 0);
+    // Add rental cost (hardcoded for now, or you can parse from a config)
+    const rentalCost = 643.98;
+    const totalCost = totalHotelCost + rentalCost;
     document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)}`;
+    // Also update rental cost display if present
+    const rentalCostElem = document.getElementById('rental-cost');
+    if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
 }
 
 function populateBookingsTable() {
