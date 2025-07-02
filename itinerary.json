@@ -10,7 +10,8 @@
     "hotel": "Le Méridien Paris Arc De Triomphe",
     "chargeEUR": 203.6,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)"
+    "parking": "€36/day (valet only)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 2,
@@ -23,7 +24,8 @@
     "hotel": "Le Méridien Paris Arc De Triomphe",
     "chargeEUR": 203.6,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)"
+    "parking": "€36/day (valet only)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 3,
@@ -36,7 +38,8 @@
     "hotel": "Courtyard Brussels",
     "chargeEUR": 130.89,
     "chargeCHF": 0,
-    "parking": "€25/day (weekday) / €12.50 (weekend)"
+    "parking": "€25/day (weekday) / €12.50 (weekend)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 4,
@@ -49,7 +52,8 @@
     "hotel": "Grand Hotel Casselbergh Bruges",
     "chargeEUR": 207.03,
     "chargeCHF": 0,
-    "parking": "€30/day (underground, secure)"
+    "parking": "€30/day (underground, secure)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 5,
@@ -62,7 +66,8 @@
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
     "chargeEUR": 188.6,
     "chargeCHF": 0,
-    "parking": "€30/day (limited hotel spaces)"
+    "parking": "€30/day (limited hotel spaces)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 6,
@@ -75,7 +80,8 @@
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
     "chargeEUR": 188.6,
     "chargeCHF": 0,
-    "parking": "€30/day (limited hotel spaces)"
+    "parking": "€30/day (limited hotel spaces)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 7,
@@ -88,7 +94,8 @@
     "hotel": "Cologne Marriott Hotel",
     "chargeEUR": 0.00,
     "chargeCHF": 0,
-    "parking": "€30/day (on-site garage)"
+    "parking": "€30/day (on-site garage)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 8,
@@ -101,7 +108,8 @@
     "hotel": "Moxy Luxembourg Airport",
     "chargeEUR": 139.00,
     "chargeCHF": 0,
-    "parking": "Discounted airport parking (Car Park A/B)"
+    "parking": "Discounted airport parking (Car Park A/B)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 9,
@@ -114,7 +122,8 @@
     "hotel": "Frankfurt Marriott Hotel",
     "chargeEUR": 164.65,
     "chargeCHF": 0,
-    "parking": "€29/day (Westendgate garage)"
+    "parking": "€29/day (Westendgate garage)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 10,
@@ -127,7 +136,8 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available (fee applies)"
+    "parking": "On-site parking available (fee applies)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 11,
@@ -140,7 +150,8 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available (fee applies)"
+    "parking": "On-site parking available (fee applies)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 12,
@@ -153,7 +164,8 @@
     "hotel": "Grand Hotel Suisse Majestic",
     "chargeEUR": 0,
     "chargeCHF": 370.00,
-    "parking": "Underground parking available (fee applies)"
+    "parking": "Underground parking available (fee applies)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 13,
@@ -166,7 +178,8 @@
     "hotel": "Le Méridien Paris Arc De Triomphe",
     "chargeEUR": 0,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)"
+    "parking": "€36/day (valet only)",
+    "utcOffset": "UTC+2h"
   },
   {
     "day": 14,
@@ -179,6 +192,7 @@
     "hotel": "Le Méridien Paris Arc De Triomphe",
     "chargeEUR": 0,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)"
+    "parking": "€36/day (valet only)",
+    "utcOffset": "UTC+2h"
   }
 ]
