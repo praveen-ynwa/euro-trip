@@ -136,7 +136,7 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available (fee applies)",
+    "parking": "On-site parking available - CHF 12 per day",
     "utcOffset": "UTC+2h"
   },
   {
@@ -150,7 +150,7 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available (fee applies)",
+    "parking": "On-site parking available - CHF 12 per day",
     "utcOffset": "UTC+2h"
   },
   {
@@ -164,7 +164,7 @@
     "hotel": "Grand Hotel Suisse Majestic",
     "chargeEUR": 0,
     "chargeCHF": 370.00,
-    "parking": "Underground parking available (fee applies)",
+    "parking": "Public parking nearby, CHF 35 per day",
     "utcOffset": "UTC+2h"
   },
   {
