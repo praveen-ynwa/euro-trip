@@ -569,7 +569,7 @@ function populateQuickReferenceTable() {
         const row = document.createElement('tr');
         row.innerHTML = `
             <td class="p-3">${item.day}</td>
-            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}: ${item.route}</td>
+            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric' , timeZone: 'UTC' })}: ${item.route}</td>
             <td class="p-3">${item.keyActivity || ''}</td>
             <td class="p-3">${item.stay || ''}</td>
             <td class="p-3">${item.hotel || ''}</td>
