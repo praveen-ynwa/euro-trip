@@ -249,7 +249,7 @@ function populateItineraryTable() {
         row.innerHTML = `
             <td class="p-3 font-medium">${item.day}</td>
             <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3">${item.route}</td>
+            <td class="p-3">${item.route}<br>${item.driveSummary}</td>
             <td class="p-3">${processedHighlights}</td>
             <td class="p-3">${item.stay}</td>
         `;

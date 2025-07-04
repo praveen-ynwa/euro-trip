@@ -11,7 +11,8 @@
     "chargeEUR": 203.6,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~1 hr"
   },
   {
     "day": 2,
@@ -25,7 +26,8 @@
     "chargeEUR": 203.6,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~8 hrs (round trip)"
   },
   {
     "day": 3,
@@ -39,7 +41,8 @@
     "chargeEUR": 130.89,
     "chargeCHF": 0,
     "parking": "€25/day (weekday) / €12.50 (weekend)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~3.5 hrs"
   },
   {
     "day": 4,
@@ -53,7 +56,8 @@
     "chargeEUR": 207.03,
     "chargeCHF": 0,
     "parking": "€30/day (underground, secure)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~1.5 hrs"
   },
   {
     "day": 5,
@@ -67,7 +71,8 @@
     "chargeEUR": 188.6,
     "chargeCHF": 0,
     "parking": "€30/day (limited hotel spaces)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~4 hrs"
   },
   {
     "day": 6,
@@ -81,7 +86,8 @@
     "chargeEUR": 188.6,
     "chargeCHF": 0,
     "parking": "€30/day (limited hotel spaces)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~3 hrs total"
   },
   {
     "day": 7,
@@ -95,7 +101,8 @@
     "chargeEUR": 0.00,
     "chargeCHF": 0,
     "parking": "€30/day (on-site garage)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~3.5 hrs total"
   },
   {
     "day": 8,
@@ -109,7 +116,8 @@
     "chargeEUR": 139.00,
     "chargeCHF": 0,
     "parking": "Discounted airport parking (Car Park A/B)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~4.5 hrs with detours"
   },
   {
     "day": 9,
@@ -123,21 +131,23 @@
     "chargeEUR": 164.65,
     "chargeCHF": 0,
     "parking": "€29/day (Westendgate garage)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~4 hrs with detours"
   },
   {
     "day": 10,
     "date": "2025-07-20",
     "route": "Frankfurt → Interlaken",
     "keyActivity": "Drive to Lucerne, explore, continue to Interlaken",
-    "highlights": "🚗 <b>Morning: Drive from Frankfurt to Lucerne</b> (~4 hours)<br>- Depart <b>early (~8 AM)</b> to maximize time in Lucerne.<br>- Optional <b>stop in Heidelberg</b> (~1 hour detour) to visit <b>Heidelberg Castle</b> (9:00–18:00, ticket required) and the <b>Old Bridge</b> (always open, free).<br><br>🏙️ <b>Midday: Scenic Drive Through the Black Forest</b><br>- Pass through <b>Freiburg im Breisgau</b>, a charming university town.<br>- Stop at <b>Titisee Lake</b> for a relaxing break.<br><br>🚗 <b>Afternoon: Arrive in Lucerne</b> (~2 PM)<br>- Visit <b>Chapel Bridge</b> (always open, free), Lucerne’s iconic wooden bridge.<br>- Explore <b>Old Town</b>, filled with colorful medieval buildings.<br>- Optional <b>Lake Lucerne boat tour</b> (April–Oct, 9:00–18:00, ticket required) for stunning alpine views.<br><br>🚗 <b>Evening: Travel to Interlaken</b> (~1h by car)<br>- Check in to hotel and relax.<br><br><b>Alternative Route:</b><br><b>Frankfurt → Alsace Wine Route (France)</b><br>- Drive to <b>Strasbourg</b> (~2.5 hours).<br>- Explore <b>Strasbourg’s Old Town</b>, visit the <b>Cathedral</b>, and enjoy Alsatian cuisine.<br>- Follow the <b>Alsace Wine Route</b>, stopping at picturesque villages like <b>Riquewihr, Ribeauvillé, and Colmar</b>.<br>- Visit <b>Haut-Koenigsbourg Castle</b> for panoramic views.<br><br>- Cross into Switzerland and drive to <b>Lucerne</b> (~2 hours).<br>- Arrive in Lucerne and explore <b>Chapel Bridge, Lake Lucerne, and Mount Pilatus</b>.<br><br>🚗 <b>Evening: Travel to Interlaken</b>",
+    "highlights": "🚗 <b>Morning: Drive from Frankfurt to Lucerne</b> (~4 hours)<br>- Depart <b>early (~8 AM)</b> to maximize time in Lucerne.<br>- Optional <b>stop in Heidelberg</b> (~1 hour detour) to visit <b>Heidelberg Castle</b> (9:00–18:00, ticket required) and the <b>Old Bridge</b> (always open, free).<br><br>🏙️ <b>Midday: Scenic Drive Through the Black Forest</b><br>- Pass through <b>Freiburg im Breisgau</b>, a charming university town.<br>- Stop at <b>Titisee Lake</b> for a relaxing break.<br><br>🚗 <b>Afternoon: Arrive in Lucerne</b> (~2 PM)<br>- Visit <b>Chapel Bridge</b> (always open, free), Lucerne’s iconic wooden bridge.<br>- Explore <b>Old Town</b>, filled with colorful medieval buildings.<br>- Optional <b>Lake Lucerne boat tour</b> (April–Oct, 9:00–18:00, ticket required) for stunning alpine views.<br><br>🚗 <b>Evening: Travel to Interlaken</b> (~1h by car)<br>- Check in to hotel and relax.<br><br><b>Alternative Route:</b><br><br><b>Frankfurt → Alsace Wine Route (France)</b><br>- Drive to <b>Strasbourg</b> (~2.5 hours).<br>- Explore <b>Strasbourg’s Old Town</b>, visit the <b>Cathedral</b>, and enjoy Alsatian cuisine.<br>- Follow the <b>Alsace Wine Route</b>, stopping at picturesque villages like <b>Riquewihr, Ribeauvillé, and Colmar</b>.<br>- Visit <b>Haut-Koenigsbourg Castle</b> for panoramic views.<br><br>- Cross into Switzerland and drive to <b>Lucerne</b> (~2 hours).<br>- Arrive in Lucerne and explore <b>Chapel Bridge, Lake Lucerne, and Mount Pilatus</b>.<br><br>🚗 <b>Evening: Travel to Interlaken</b> (~1h by car)<br>- Check in to hotel and relax.",
     "duration": "~6h",
     "stay": "Interlaken",
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
     "parking": "On-site parking available - CHF 12 per day",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~5.5 hrs"
   },
   {
     "day": 11,
@@ -151,7 +161,8 @@
     "chargeEUR": 0,
     "chargeCHF": 255.50,
     "parking": "On-site parking available - CHF 12 per day",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~2 hrs train + light local driving"
   },
   {
     "day": 12,
@@ -165,7 +176,8 @@
     "chargeEUR": 0,
     "chargeCHF": 370.00,
     "parking": "Public parking nearby, CHF 35 per day",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~3.5 hrs with stops"
   },
   {
     "day": 13,
@@ -179,7 +191,8 @@
     "chargeEUR": 0,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~7 hrs"
   },
   {
     "day": 14,
@@ -193,6 +206,7 @@
     "chargeEUR": 0,
     "chargeCHF": 0,
     "parking": "€36/day (valet only)",
-    "utcOffset": "UTC+2h"
+    "utcOffset": "UTC+2h",
+    "driveSummary": "🚗 ~1 hr"
   }
 ]
