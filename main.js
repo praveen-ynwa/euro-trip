@@ -74,7 +74,7 @@ const tripData = {
 // Load itinerary.json and initialize dashboard
 async function initializeDashboard() {
     try {
-        const response = await fetch('itinerary.json');
+        const response = await fetch(`itinerary.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error('Failed to load itinerary.json');
         const itineraryData = await response.json();
         tripData.itinerary = itineraryData;
