@@ -248,8 +248,7 @@ function populateItineraryTable() {
         const processedHighlights = addGoogleMapsLinksToHighlights(item.highlights, mainCity);
         row.innerHTML = `
             <td class="p-3 font-medium">${item.day}</td>
-            <td class="p-3">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</td>
-            <td class="p-3">${item.route}<br>${item.driveSummary}</td>
+            <td class="p-3"><span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span><br>${item.route}<br>${item.driveSummary}</td>
             <td class="p-3">${processedHighlights}</td>
             <td class="p-3">${item.stay}</td>
         `;
@@ -265,7 +264,7 @@ function populateItineraryTable() {
                     <span class="font-bold text-lg">Day ${item.day}</span>
                     <span class="text-xs text-gray-500">${new Date(item.date + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })}</span>
                 </div>
-                <div class="mb-1 text-base font-semibold">${item.route}</div>
+                <div class="mb-1 text-base font-semibold">${item.route} ${item.driveSummary}</div>
                 <div class="mb-1 text-sm">${processedHighlights}</div>
             `;
             mobileCards.appendChild(card);
