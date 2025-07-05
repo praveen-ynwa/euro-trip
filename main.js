@@ -310,6 +310,19 @@ function displayTotalCost() {
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
     if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
+
+    const totalDistance = tripData.itinerary.reduce((sum, day) => {
+            const distanceMatch = day.distance.match(/\d+/g); // Extract numeric values
+            if (distanceMatch) {
+                const distance = parseInt(distanceMatch[0]); // Use the first number
+                return sum + distance;
+            }
+            return sum;
+        }, 0);
+
+    document.getElementById('total-distance').textContent = `~ ${totalDistance} km`;
+        
+
 }
 
 function populateBookingsTable() {
@@ -596,3 +609,38 @@ function populateQuickReferenceTable() {
         }
     });
 }
+
+async function calculateTotalDistance() {
+    try {
+        const response = await fetch(`itinerary.json?v=${new Date().getTime()}`);
+        if (!response.ok) throw new Error('Failed to load itinerary.json');
+        const itineraryData = await response.json();
+
+        // Calculate total distance
+        const totalDistance = itineraryData.reduce((sum, day) => {
+            const distanceMatch = day.distance.match(/\d+/g); // Extract numeric values
+            if (distanceMatch) {
+                const distance = parseInt(distanceMatch[0]); // Use the first number
+                return sum + distance;
+            }
+            return sum;
+        }, 0);
+
+        // Update the Quick Stats section
+        const quickStatsElement = document.querySelector('.quick-stats');
+        if (quickStatsElement) {
+            const distanceElement = document.createElement('li');
+            distanceElement.className = 'flex justify-between items-center';
+            distanceElement.innerHTML = `<span>Total Estimated Driving Distance:</span><span class="font-bold text-blue-600">~${totalDistance} km</span>`;
+            quickStatsElement.appendChild(distanceElement);
+        }
+    } catch (e) {
+        console.error('Error calculating total distance:', e);
+    }
+}
+
+// Call the function after the dashboard is initialized
+document.addEventListener('DOMContentLoaded', () => {
+    initializeDashboard();
+    calculateTotalDistance();
+});
