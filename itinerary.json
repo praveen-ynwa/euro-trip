@@ -92,7 +92,7 @@
     "chargeCHF": 0,
     "parking": "€30/day (limited hotel spacesS)",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~3 hrs total",
+    "driveSummary": "🚗 ~3 hrs",
     "distance": "~200 km"
   },
   {
@@ -108,7 +108,7 @@
     "chargeCHF": 0,
     "parking": "€30/day (on-site garage)",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~3.5 hrs total",
+    "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~280 km"
   },
   {
@@ -124,7 +124,7 @@
     "chargeCHF": 0,
     "parking": "Discounted airport parking (Car Park A/B)",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~4.5 hrs with detours",
+    "driveSummary": "🚗 ~4.5 hrs",
     "distance": "~300 km"
   },
   {
@@ -140,7 +140,7 @@
     "chargeCHF": 0,
     "parking": "€29/day (Westendgate garage)",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~4 hrs with detours",
+    "driveSummary": "🚗 ~4 hrs",
     "distance": "~350 km"
   },
   {
