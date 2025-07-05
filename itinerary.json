@@ -28,8 +28,8 @@
     "chargeCHF": 0,
     "parking": "€36/day (valet only)",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~8 hrs (round trip)",
-    "distance": "~720 km round trip"
+    "driveSummary": "🚗 ~8 hrs",
+    "distance": "~720 km"
   },
   {
     "day": 3,
@@ -90,10 +90,10 @@
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
     "chargeEUR": 188.6,
     "chargeCHF": 0,
-    "parking": "€30/day (limited hotel spaces)",
+    "parking": "€30/day (limited hotel spacesS)",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3 hrs total",
-    "distance": "~200 km round trip"
+    "distance": "~200 km"
   },
   {
     "day": 7,
