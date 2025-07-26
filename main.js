@@ -306,7 +306,7 @@ function displayTotalCost() {
     // Add rental cost (hardcoded for now, or you can parse from a config)
     const rentalCost = 655;
     const totalCost = totalHotelCost ;
-    document.getElementById('total-hotel-cost').textContent = `€${totalCost.toFixed(2)}`;
+    document.getElementById('total-hotel-cost').textContent = `${totalCost.toFixed(2)}`;
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
     if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
@@ -671,11 +671,14 @@ async function calculateTotalParkingCost() {
             }
             return sum;
         }, 0);
-        document.getElementById('total-parking-cost').textContent = `€${totalParkingCost.toFixed(2)}`;
-        document.getElementById('total-fuel-cost').textContent = `€${totalFuelCost.toFixed(2)}`;
-    
+        document.getElementById('total-parking-cost').textContent = `${totalParkingCost.toFixed(2)}`;
+        document.getElementById('total-fuel-cost').textContent = `${totalFuelCost.toFixed(2)}`;
         
-
+        const totalCost = (totalFuelCost* 0.93) + 
+                  parseFloat(document.getElementById('total-hotel-cost').textContent) + 
+                  parseFloat(document.getElementById('total-rental-cost').textContent);//
+        document.getElementById('total-cost').textContent = `${totalCost.toFixed(2)}`;
+    
     } catch (e) {
         console.error('Error calculating total parking cost:', e);
     }

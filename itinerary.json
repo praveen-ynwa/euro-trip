@@ -31,7 +31,7 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~8 hrs",
     "distance": "~720 km",
-    "fuelCost": 0
+    "fuelCost": 86.29
   },
   {
     "day": 3,
@@ -218,7 +218,7 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~7 hrs",
     "distance": "~620 km",
-    "fuelCost": 0
+    "fuelCost": 84.38
   },
   {
     "day": 14,
