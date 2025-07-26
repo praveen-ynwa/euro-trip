@@ -305,8 +305,8 @@ function displayTotalCost() {
     }, 0);
     // Add rental cost (hardcoded for now, or you can parse from a config)
     const rentalCost = 655;
-    const totalCost = totalHotelCost + rentalCost;
-    document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)}`;
+    const totalCost = totalHotelCost ;
+    document.getElementById('total-hotel-cost').textContent = `€${totalCost.toFixed(2)}`;
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
     if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
@@ -660,9 +660,22 @@ async function calculateTotalParkingCost() {
             }
             return sum;
         }, 0);
-
+        const totalFuelCost = itineraryData.reduce((sum, day) => {
+            if (day.fuelCost) {
+                const parkingMatch = day.fuelCost; // Extract numeric values
+                if (parkingMatch) {
+                    let parkingCost = parseFloat(parkingMatch);
+                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
+                    return sum + parkingCost;
+                }
+            }
+            return sum;
+        }, 0);
         document.getElementById('total-parking-cost').textContent = `€${totalParkingCost.toFixed(2)}`;
+        document.getElementById('total-fuel-cost').textContent = `€${totalFuelCost.toFixed(2)}`;
     
+        
+
     } catch (e) {
         console.error('Error calculating total parking cost:', e);
     }
