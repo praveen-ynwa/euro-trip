@@ -648,6 +648,19 @@ async function calculateTotalParkingCost() {
              return acc + item.fuelCost ;
         }, 0);
         
+        const totalTransportCost = itineraryData.reduce((sum, day) => {
+            if (day.transport && Array.isArray(day.transport)) {
+                const dayTotal = day.transport.reduce((daySum, expense) => {
+                    let expenseValue = parseFloat(expense);
+                    if (!isNaN(expenseValue)) {
+                        return daySum + expenseValue;
+                    }
+                    return daySum;
+                }, 0);
+                return sum + dayTotal;
+            }
+            return sum;
+        }, 0);
         const totalFoodCost = itineraryData.reduce((sum, day) => {
             if (day.foodExpenses && Array.isArray(day.foodExpenses)) {
                 const dayTotal = day.foodExpenses.reduce((daySum, expense) => {
@@ -675,12 +688,27 @@ async function calculateTotalParkingCost() {
             }
             return sum;
         }, 0);
+        const totalShoppingCost = itineraryData.reduce((sum, day) => {
+            if (day.shopping && Array.isArray(day.shopping)) {
+                const dayTotal = day.shopping.reduce((daySum, expense) => {
+                    let expenseValue = parseFloat(expense);
+                    if (!isNaN(expenseValue)) {
+                        return daySum + expenseValue;
+                    }
+                    return daySum;
+                }, 0);
+                return sum + dayTotal;
+            }
+            return sum;
+        }, 0);
         document.getElementById('total-parking-cost').textContent = `${totalParkingCost.toFixed(2)}`;
         document.getElementById('total-fuel-cost').textContent = `${totalFuelCost.toFixed(2)}`;
         document.getElementById('total-food-cost').textContent = `${totalFoodCost.toFixed(2)}`;
         document.getElementById('total-ticket-cost').textContent = `${totalTicketCost.toFixed(2)}`;
+        document.getElementById('total-transport-cost').textContent = `${totalTransportCost.toFixed(2)}`;
+        document.getElementById('total-shopping-cost').textContent = `${totalShoppingCost.toFixed(2)}`;
         
-        const totalCost = totalFuelCost +  totalParkingCost + totalFoodCost+totalTicketCost+
+        const totalCost = totalFuelCost +  totalParkingCost + totalFoodCost+totalTicketCost+totalTransportCost+totalShoppingCost+
                   parseFloat(document.getElementById('total-hotel-cost').textContent) + 
                   parseFloat(document.getElementById('total-rental-cost').textContent);
         document.getElementById('total-cost').textContent = `$${totalCost.toFixed(2)} `;
