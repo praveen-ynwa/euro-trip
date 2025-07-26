@@ -673,25 +673,31 @@ async function calculateTotalParkingCost() {
         }, 0);
         
         const totalFoodCost = itineraryData.reduce((sum, day) => {
-            if (day.foodExpenses) {
-                const parkingMatch = day.foodExpenses; // Extract numeric values
-                if (parkingMatch && parkingMatch.length > 0 ) {
-                    let parkingCost = parseFloat(parkingMatch);
-                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
-                    return sum + parkingCost;
-                }
+            if (day.foodExpenses && Array.isArray(day.foodExpenses)) {
+                const dayTotal = day.foodExpenses.reduce((daySum, expense) => {
+                    let expenseValue = parseFloat(expense);
+                    if (!isNaN(expenseValue)) {
+                        expenseValue *= 0.93; // Convert USD to EUR (example conversion rate)
+                        return daySum + expenseValue;
+                    }
+                    return daySum;
+                }, 0);
+                return sum + dayTotal;
             }
             return sum;
         }, 0);
         
         const totalTicketCost = itineraryData.reduce((sum, day) => {
-            if (day.ticketExpenses) {
-                const parkingMatch = day.ticketExpenses; // Extract numeric values
-                if (parkingMatch && parkingMatch.length > 0 ) {
-                    let parkingCost = parseFloat(parkingMatch);
-                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
-                    return sum + parkingCost;
-                }
+            if (day.ticketExpenses && Array.isArray(day.ticketExpenses)) {
+                const dayTotal = day.ticketExpenses.reduce((daySum, expense) => {
+                    let expenseValue = parseFloat(expense);
+                    if (!isNaN(expenseValue)) {
+                        expenseValue *= 0.93; // Convert USD to EUR (example conversion rate)
+                        return daySum + expenseValue;
+                    }
+                    return daySum;
+                }, 0);
+                return sum + dayTotal;
             }
             return sum;
         }, 0);
@@ -700,10 +706,12 @@ async function calculateTotalParkingCost() {
         document.getElementById('total-food-cost').textContent = `${totalFoodCost.toFixed(2)}`;
         document.getElementById('total-ticket-cost').textContent = `${totalTicketCost.toFixed(2)}`;
         
-        const totalCost = (totalFuelCost* 0.93) + 
+        const totalCost = (totalFuelCost* 0.93) +  totalParkingCost + (totalFoodCost* 0.93)+(totalTicketCost* 0.93)+
                   parseFloat(document.getElementById('total-hotel-cost').textContent) + 
                   parseFloat(document.getElementById('total-rental-cost').textContent);//
-        document.getElementById('total-cost').textContent = `${totalCost.toFixed(2)}`;
+        const euroToUsdRate = 1.17; // Example conversion rate
+        const totalCostInUsd = totalCost * euroToUsdRate;
+        document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)} / $${totalCostInUsd.toFixed(2)} `;
     
     } catch (e) {
         console.error('Error calculating total parking cost:', e);
