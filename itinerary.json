@@ -53,7 +53,7 @@
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~320 km",
     "fuelCost": 58.58,
-    "foodExpenses": [5.39,26.83,32.10,45.67,3.51,25.54],
+    "foodExpenses": [5.39,26.83,32.10,45.67,3.51,25.54,18.00],
     "ticketExpenses": [39.97,44.32,30.46,11.72]
   },
   {
@@ -91,7 +91,7 @@
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~280 km",
     "fuelCost": 80.29,
-    "foodExpenses": [2.01,58.73,37.44,28.60,3.51,1.05,6.73,13.45],
+    "foodExpenses": [2.01,58.73,37.44,28.60,3.51,1.05,6.73,13.45,14.00],
     "ticketExpenses": [31.59,39.78]
   },
   {
@@ -110,7 +110,7 @@
     "driveSummary": "🚗 ~3 hrs",
     "distance": "~200 km",
     "fuelCost": 0,
-    "foodExpenses": [5.24,30.70,29.83,4.68,23.39,28.07],
+    "foodExpenses": [5.24,30.70,29.83,4.68,23.39,28.07,19.00],
     "ticketExpenses": [17.54]
   },
   {
@@ -167,7 +167,7 @@
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~350 km",
     "fuelCost": 0,
-    "foodExpenses": [48.72,9.92,17.28,5.37,6.22,24.28],
+    "foodExpenses": [48.72,9.92,17.28,5.37,6.22,24.28,22.50],
     "ticketExpenses": [25.68,14.01]
   },
   {
