@@ -8,9 +8,9 @@
     "duration": "~1h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 203.6,
+    "chargeEUR": 205,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)",
+    "parking": "$54.48",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1 hr",
     "distance": "~30 km"
@@ -24,9 +24,9 @@
     "duration": "~4h + 4h",
     "stay": "Paris",
     "hotel": "Le Méridien Paris Arc De Triomphe",
-    "chargeEUR": 203.6,
+    "chargeEUR": 205,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)",
+    "parking": "$54.48",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~8 hrs",
     "distance": "~720 km"
@@ -40,9 +40,9 @@
     "duration": "~3.5h",
     "stay": "Brussels",
     "hotel": "Courtyard Brussels",
-    "chargeEUR": 130.89,
+    "chargeEUR": 149,
     "chargeCHF": 0,
-    "parking": "€25/day (weekday) / €12.50 (weekend)",
+    "parking": "€12.5",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~320 km"
@@ -56,9 +56,9 @@
     "duration": "~1h",
     "stay": "Bruges",
     "hotel": "Grand Hotel Casselbergh Bruges",
-    "chargeEUR": 207.03,
+    "chargeEUR": 160,
     "chargeCHF": 0,
-    "parking": "€30/day (underground, secure)",
+    "parking": "€30",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1.5 hrs",
     "distance": "~120 km"
@@ -74,7 +74,7 @@
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
     "chargeEUR": 188.6,
     "chargeCHF": 0,
-    "parking": "€30/day (limited hotel spaces)",
+    "parking": "€55",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~280 km"
@@ -90,7 +90,7 @@
     "hotel": "Apollo Hotel Amsterdam, Tribute Portfolio",
     "chargeEUR": 188.6,
     "chargeCHF": 0,
-    "parking": "€30/day (limited hotel spacesS)",
+    "parking": "€55",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3 hrs",
     "distance": "~200 km"
@@ -106,7 +106,7 @@
     "hotel": "Cologne Marriott Hotel",
     "chargeEUR": 0.00,
     "chargeCHF": 0,
-    "parking": "€30/day (on-site garage)",
+    "parking": "€32",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~280 km"
@@ -122,7 +122,7 @@
     "hotel": "Moxy Luxembourg Airport",
     "chargeEUR": 139.00,
     "chargeCHF": 0,
-    "parking": "Discounted airport parking (Car Park A/B)",
+    "parking": "$26",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4.5 hrs",
     "distance": "~300 km"
@@ -138,7 +138,7 @@
     "hotel": "Frankfurt Marriott Hotel",
     "chargeEUR": 164.65,
     "chargeCHF": 0,
-    "parking": "€29/day (Westendgate garage)",
+    "parking": "€45",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~350 km"
@@ -154,7 +154,7 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available - CHF 12 per day",
+    "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~5.5 hrs",
     "distance": "~500–580 km"
@@ -170,7 +170,7 @@
     "hotel": "Hotel Bernerhof",
     "chargeEUR": 0,
     "chargeCHF": 255.50,
-    "parking": "On-site parking available - CHF 12 per day",
+    "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~2 hrs train + light local driving",
     "distance": "~35 km driving"
@@ -186,7 +186,7 @@
     "hotel": "Grand Hotel Suisse Majestic",
     "chargeEUR": 0,
     "chargeCHF": 370.00,
-    "parking": "Public parking nearby, CHF 35 per day",
+    "parking": "$31.58",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~180 km"
@@ -199,10 +199,10 @@
     "highlights": "Scenic Drive Back to Paris<br>- Early morning departure from Montreux (~6-7 hours drive).<br>- <b>Suggested stops along the way:</b><br>&nbsp;&nbsp;- <b>Lausanne</b> – Quick coffee stop by <b>Lake Geneva</b>.<br>&nbsp;&nbsp;- <b>Besançon</b> – Explore the <b>Citadel of Besançon</b> (10:00–18:00, 🎟️ ticket required), a UNESCO site.<br>&nbsp;&nbsp;- <b>Dijon</b> – Famous for <b>mustard & Burgundy wines</b>, perfect for lunch.<br>&nbsp;&nbsp;- <b>Fontainebleau</b> – Visit <b>Château de Fontainebleau</b> (9:30–17:00, 🎟️ ticket required), a historic royal palace.<br>- <b>Alternative</b> drive through Beaune, a beautiful wine village in Burgundy.<br><br>🏙️ <b>Evening in Paris:</b><br>- Relax & enjoy a final night in the city<br>- Optional <b>Seine River dinner cruise</b> (various operators, 18:00–22:00, 🎟️ ticket required) for a memorable farewell.",
     "duration": "~6-7h",
     "stay": "Paris",
-    "hotel": "Le Méridien Paris Arc De Triomphe",
+    "hotel": "Courtyard by Marriott Paris Charles de Gaulle Central Airport",
     "chargeEUR": 0,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)",
+    "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~7 hrs",
     "distance": "~620 km"
@@ -213,14 +213,14 @@
     "route": "Paris",
     "keyActivity": "Departure, last Paris moments",
     "highlights": "Departure & Final Paris Moments<br>- <b>Morning:</b> Leisurely breakfast at <b>Café de Flore</b> or <b>Angelina Paris</b>.<br>- <b>Optional quick visit:</b><br>&nbsp;&nbsp;- <b>Montmartre & Sacré-Cœur</b> (Sacré-Cœur: 6:00–22:30, free entry, dome: 🎟️ ticket required) for panoramic city views.<br>&nbsp;&nbsp;- <b>Champs-Élysées & Arc de Triomphe</b> (Arc: 10:00–23:00, 🎟️ ticket required) for a final Parisian stroll.<br>- Or quick stop in <b>Saint-Germain-des-Prés</b> for a relaxed café breakfast instead of Champs-Élysées <br>- Return rental car at airport & flight check-in.",
-    "duration": "~1h",
-    "stay": "Paris",
-    "hotel": "Le Méridien Paris Arc De Triomphe",
+    "duration": "-",
+    "stay": "-",
+    "hotel": "-",
     "chargeEUR": 0,
     "chargeCHF": 0,
-    "parking": "€36/day (valet only)",
+    "parking": "0",
     "utcOffset": "UTC+2h",
-    "driveSummary": "🚗 ~1 hr",
-    "distance": "~30 km"
+    "driveSummary": "-",
+    "distance": "-"
   }
 ]

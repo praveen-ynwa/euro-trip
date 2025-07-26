@@ -303,10 +303,15 @@ function displayTotalCost() {
         const chfInEur = item.chargeCHF * chfToEurRate;
         return acc + item.chargeEUR + chfInEur;
     }, 0);
+    const totalParkingCost = tripData.itinerary.filter(item => item.parking).reduce((acc, item) => {
+        const chfInEur = item.chargeCHF * chfToEurRate;
+        return acc + item.chargeEUR + chfInEur;
+    }, 0);
     // Add rental cost (hardcoded for now, or you can parse from a config)
-    const rentalCost = 643.98;
+    const rentalCost = 655;
     const totalCost = totalHotelCost + rentalCost;
     document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)}`;
+    document.getElementById('total-parking-cost').textContent = `€${totalParkingCost.toFixed(2)}`;
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
     if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
@@ -333,7 +338,7 @@ function populateBookingsTable() {
         if (!item.hotel) return; // Only show days with hotel info
         const row = document.createElement('tr');
         row.className = 'border-b border-gray-200 hover:bg-gray-50';
-        let charge = item.chargeEUR > 0 ? `€${item.chargeEUR.toFixed(2)}` : `CHF ${item.chargeCHF.toFixed(2)}`;
+        let charge = item.chargeEUR > 0 ? `€${item.chargeEUR.toFixed(2)}` : item.chargeCHF > 0 ?  `CHF ${item.chargeCHF.toFixed(2)}` : '0';
         const googleMapsLinkForHotel = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.hotel + ', ' + item.stay)}`;
         row.innerHTML = `
             <td class="p-3 font-medium">${item.stay}</td>
