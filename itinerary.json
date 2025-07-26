@@ -13,7 +13,8 @@
     "parking": "$54.48",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1 hr",
-    "distance": "~30 km"
+    "distance": "~30 km",
+    "fuelCost": 0
   },
   {
     "day": 2,
@@ -29,7 +30,8 @@
     "parking": "$54.48",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~8 hrs",
-    "distance": "~720 km"
+    "distance": "~720 km",
+    "fuelCost": 0
   },
   {
     "day": 3,
@@ -45,7 +47,8 @@
     "parking": "€12.5",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
-    "distance": "~320 km"
+    "distance": "~320 km",
+    "fuelCost": 0
   },
   {
     "day": 4,
@@ -61,7 +64,8 @@
     "parking": "€30",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1.5 hrs",
-    "distance": "~120 km"
+    "distance": "~120 km",
+    "fuelCost": 0
   },
   {
     "day": 5,
@@ -77,7 +81,8 @@
     "parking": "€55",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
-    "distance": "~280 km"
+    "distance": "~280 km",
+    "fuelCost": 0
   },
   {
     "day": 6,
@@ -93,7 +98,8 @@
     "parking": "€55",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3 hrs",
-    "distance": "~200 km"
+    "distance": "~200 km",
+    "fuelCost": 0
   },
   {
     "day": 7,
@@ -109,7 +115,8 @@
     "parking": "€32",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
-    "distance": "~280 km"
+    "distance": "~280 km",
+    "fuelCost": 0
   },
   {
     "day": 8,
@@ -125,7 +132,8 @@
     "parking": "$26",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4.5 hrs",
-    "distance": "~300 km"
+    "distance": "~300 km",
+    "fuelCost": 0
   },
   {
     "day": 9,
@@ -141,7 +149,8 @@
     "parking": "€45",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
-    "distance": "~350 km"
+    "distance": "~350 km",
+    "fuelCost": 0
   },
   {
     "day": 10,
@@ -151,13 +160,14 @@
     "highlights": "🚗 <b>Morning: Drive from Frankfurt to Lucerne</b> (~4 hours)<br>- Depart <b>early (~8 AM)</b> to maximize time in Lucerne.<br>- Optional <b>stop in Heidelberg</b> (~1 hour detour) to visit <b>Heidelberg Castle</b> (9:00–18:00, 🎟️ ticket required) and the <b>Old Bridge</b> (always open, free).<br><br>🏙️ <b>Midday: Scenic Drive Through the Black Forest</b><br>- Pass through <b>Freiburg im Breisgau</b>, a charming university town.<br>- Stop at <b>Titisee Lake</b> for a relaxing break.<br><br>🚗 <b>Afternoon: Arrive in Lucerne</b> (~2 PM)<br>- Visit <b>Chapel Bridge</b> (always open, free), Lucerne’s iconic wooden bridge.<br>- Explore <b>Old Town</b>, filled with colorful medieval buildings.<br>- Optional <b>Lake Lucerne boat tour</b> (April–Oct, 9:00–18:00, 🎟️ ticket required) for stunning alpine views.<br><br>🚗 <b>Evening: Travel to Interlaken</b> (~1h by car)<br>- Check in to hotel and relax.<br><br><b>Alternative Route:</b><br><br><b>Frankfurt → Alsace Wine Route (France)</b><br>- Drive to <b>Strasbourg</b> (~2.5 hours).<br>- Explore <b>Strasbourg’s Old Town</b>, visit the <b>Cathedral</b>, and enjoy Alsatian cuisine.<br>- Follow the <b>Alsace Wine Route</b>, stopping at picturesque villages like <b>Riquewihr, Ribeauvillé, and Colmar</b>.<br>- Visit <b>Haut-Koenigsbourg Castle</b> for panoramic views.<br><br>- Cross into Switzerland and drive to <b>Lucerne</b> (~2 hours).<br>- Arrive in Lucerne and explore <b>Chapel Bridge, Lake Lucerne, and Mount Pilatus</b>.<br><br>🚗 <b>Evening: Travel to Interlaken</b> (~1h by car)<br>- Check in to hotel and relax.",
     "duration": "~6h",
     "stay": "Interlaken",
-    "hotel": "Hotel Bernerhof",
+    "hotel": "Grand Beau-Rivage",
     "chargeEUR": 0,
-    "chargeCHF": 255.50,
+    "chargeCHF": 647,
     "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~5.5 hrs",
-    "distance": "~500–580 km"
+    "distance": "~500–580 km",
+    "fuelCost": 0
   },
   {
     "day": 11,
@@ -167,13 +177,14 @@
     "highlights": "🚆 <b>Morning: Travel from Interlaken Ost → Lauterbrunnen (~20m)<br>&nbsp;&nbsp;- Lauterbrunnen → Wengen → Kleine Scheidegg → Jungfraujoch (~1h 50m)</b><br><br>🏔️ <b>Midday: Explore Jungfraujoch (Top of Europe)</b><br>- Visit <b>Ice Palace</b>, <b>Sphinx Observatory</b>, and <b>Aletsch Glacier</b> (Jungfraujoch: 8:00–16:20, 🎟️ ticket required, <b>pre-book</b> recommended)<br>- Enjoy lunch at <b>Top of Europe Restaurant</b><br><br>🚗 <b>Afternoon: Return to Interlaken</b> (~2 hours)<br>- Take the <b>same route back</b> via Lauterbrunnen or Grindelwald<br>- Explore <b>Lake Brienz</b> or relax in Interlaken<br><br>🏨 <b>Evening: Stay overnight in Interlaken</b>",
     "duration": "~1h + 🚆 time",
     "stay": "Interlaken",
-    "hotel": "Hotel Bernerhof",
+    "hotel": "Grand Beau-Rivage",
     "chargeEUR": 0,
-    "chargeCHF": 255.50,
+    "chargeCHF": 647,
     "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~2 hrs train + light local driving",
-    "distance": "~35 km driving"
+    "distance": "~35 km driving",
+    "fuelCost": 0
   },
   {
     "day": 12,
@@ -189,7 +200,8 @@
     "parking": "$31.58",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
-    "distance": "~180 km"
+    "distance": "~180 km",
+    "fuelCost": 0
   },
   {
     "day": 13,
@@ -205,7 +217,8 @@
     "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~7 hrs",
-    "distance": "~620 km"
+    "distance": "~620 km",
+    "fuelCost": 0
   },
   {
     "day": 14,
@@ -221,6 +234,7 @@
     "parking": "0",
     "utcOffset": "UTC+2h",
     "driveSummary": "-",
-    "distance": "-"
+    "distance": "-",
+    "fuelCost": 0
   }
 ]

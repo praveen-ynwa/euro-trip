@@ -303,15 +303,10 @@ function displayTotalCost() {
         const chfInEur = item.chargeCHF * chfToEurRate;
         return acc + item.chargeEUR + chfInEur;
     }, 0);
-    const totalParkingCost = tripData.itinerary.filter(item => item.parking).reduce((acc, item) => {
-        const chfInEur = item.chargeCHF * chfToEurRate;
-        return acc + item.chargeEUR + chfInEur;
-    }, 0);
     // Add rental cost (hardcoded for now, or you can parse from a config)
     const rentalCost = 655;
     const totalCost = totalHotelCost + rentalCost;
     document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)}`;
-    document.getElementById('total-parking-cost').textContent = `€${totalParkingCost.toFixed(2)}`;
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
     if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
@@ -644,8 +639,38 @@ async function calculateTotalDistance() {
     }
 }
 
+async function calculateTotalParkingCost() {
+    try {
+        const response = await fetch(`itinerary.json?v=${new Date().getTime()}`);
+        if (!response.ok) throw new Error('Failed to load itinerary.json');
+        const itineraryData = await response.json();
+
+        // Calculate total parking cost
+        const totalParkingCost = itineraryData.reduce((sum, day) => {
+            if (day.parking) {
+                const parkingMatch = day.parking.match(/\d+/g); // Extract numeric values
+                const isDollar = day.parking.includes('$'); // Check if the value is in dollars
+                if (parkingMatch) {
+                    let parkingCost = parseFloat(parkingMatch[0]);
+                    if (isDollar) {
+                        parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
+                    }
+                    return sum + parkingCost;
+                }
+            }
+            return sum;
+        }, 0);
+
+        document.getElementById('total-parking-cost').textContent = `€${totalParkingCost.toFixed(2)}`;
+    
+    } catch (e) {
+        console.error('Error calculating total parking cost:', e);
+    }
+}
+
 // Call the function after the dashboard is initialized
 document.addEventListener('DOMContentLoaded', () => {
     initializeDashboard();
     calculateTotalDistance();
+    calculateTotalParkingCost();
 });
