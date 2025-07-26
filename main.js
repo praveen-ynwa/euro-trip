@@ -671,8 +671,34 @@ async function calculateTotalParkingCost() {
             }
             return sum;
         }, 0);
+        
+        const totalFoodCost = itineraryData.reduce((sum, day) => {
+            if (day.foodExpenses) {
+                const parkingMatch = day.foodExpenses; // Extract numeric values
+                if (parkingMatch && parkingMatch.length > 0 ) {
+                    let parkingCost = parseFloat(parkingMatch);
+                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
+                    return sum + parkingCost;
+                }
+            }
+            return sum;
+        }, 0);
+        
+        const totalTicketCost = itineraryData.reduce((sum, day) => {
+            if (day.ticketExpenses) {
+                const parkingMatch = day.ticketExpenses; // Extract numeric values
+                if (parkingMatch && parkingMatch.length > 0 ) {
+                    let parkingCost = parseFloat(parkingMatch);
+                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
+                    return sum + parkingCost;
+                }
+            }
+            return sum;
+        }, 0);
         document.getElementById('total-parking-cost').textContent = `${totalParkingCost.toFixed(2)}`;
         document.getElementById('total-fuel-cost').textContent = `${totalFuelCost.toFixed(2)}`;
+        document.getElementById('total-food-cost').textContent = `${totalFoodCost.toFixed(2)}`;
+        document.getElementById('total-ticket-cost').textContent = `${totalTicketCost.toFixed(2)}`;
         
         const totalCost = (totalFuelCost* 0.93) + 
                   parseFloat(document.getElementById('total-hotel-cost').textContent) + 
