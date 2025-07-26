@@ -14,7 +14,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1 hr",
     "distance": "~30 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 2,
@@ -31,7 +33,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~8 hrs",
     "distance": "~720 km",
-    "fuelCost": 86.29
+    "fuelCost": 86.29,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 3,
@@ -48,7 +52,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~320 km",
-    "fuelCost": 58.58
+    "fuelCost": 58.58,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 4,
@@ -65,7 +71,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~1.5 hrs",
     "distance": "~120 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 5,
@@ -82,7 +90,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~280 km",
-    "fuelCost": 80.29
+    "fuelCost": 80.29,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 6,
@@ -99,7 +109,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3 hrs",
     "distance": "~200 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 7,
@@ -116,7 +128,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~280 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 8,
@@ -133,7 +147,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4.5 hrs",
     "distance": "~300 km",
-    "fuelCost": 116.49
+    "fuelCost": 116.49,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 9,
@@ -150,7 +166,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~4 hrs",
     "distance": "~350 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 10,
@@ -167,7 +185,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~5.5 hrs",
     "distance": "~500–580 km",
-    "fuelCost": 116.75
+    "fuelCost": 116.75,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 11,
@@ -184,7 +204,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~2 hrs train + light local driving",
     "distance": "~35 km driving",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 12,
@@ -201,7 +223,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~3.5 hrs",
     "distance": "~180 km",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 13,
@@ -218,7 +242,9 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "🚗 ~7 hrs",
     "distance": "~620 km",
-    "fuelCost": 84.38
+    "fuelCost": 84.38,
+    "foodExpenses": [],
+    "ticketExpenses": []
   },
   {
     "day": 14,
@@ -235,6 +261,8 @@
     "utcOffset": "UTC+2h",
     "driveSummary": "-",
     "distance": "-",
-    "fuelCost": 0
+    "fuelCost": 0,
+    "foodExpenses": [],
+    "ticketExpenses": []
   }
 ]
