@@ -297,19 +297,17 @@ function displayTodayItinerary() {
 }
 
 function displayTotalCost() {
-    const chfToEurRate = 1.02;
     // Use itinerary data for hotel costs
     const totalHotelCost = tripData.itinerary.filter(item => item.hotel).reduce((acc, item) => {
-        const chfInEur = item.chargeCHF * chfToEurRate;
-        return acc + item.chargeEUR + chfInEur;
+        return acc + item.hotelCost ;
     }, 0);
     // Add rental cost (hardcoded for now, or you can parse from a config)
-    const rentalCost = 655;
+    const rentalCost = 856.31;
     const totalCost = totalHotelCost ;
     document.getElementById('total-hotel-cost').textContent = `${totalCost.toFixed(2)}`;
     // Also update rental cost display if present
     const rentalCostElem = document.getElementById('rental-cost');
-    if (rentalCostElem) rentalCostElem.textContent = `€${rentalCost.toFixed(2)}`;
+    if (rentalCostElem) rentalCostElem.textContent = `${rentalCost.toFixed(2)}`;
 
     const totalDistance = tripData.itinerary.reduce((sum, day) => {
             const distanceMatch = day.distance.match(/\d+/g); // Extract numeric values
@@ -333,7 +331,7 @@ function populateBookingsTable() {
         if (!item.hotel) return; // Only show days with hotel info
         const row = document.createElement('tr');
         row.className = 'border-b border-gray-200 hover:bg-gray-50';
-        let charge = item.chargeEUR > 0 ? `€${item.chargeEUR.toFixed(2)}` : item.chargeCHF > 0 ?  `CHF ${item.chargeCHF.toFixed(2)}` : '0';
+        let charge = item.hotelCost > 0 ? `$${item.hotelCost.toFixed(2)}` : '0';
         const googleMapsLinkForHotel = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.hotel + ', ' + item.stay)}`;
         row.innerHTML = `
             <td class="p-3 font-medium">${item.stay}</td>
@@ -347,13 +345,11 @@ function populateBookingsTable() {
 
 function createCostsChart() {
     const ctx = document.getElementById('costsChart').getContext('2d');
-    const chfToEurRate = 1.02;
     // Use itinerary data for hotel costs
     const hotelNights = tripData.itinerary.filter(item => item.hotel);
     const labels = hotelNights.map(item => item.stay);
     const data = hotelNights.map(item => {
-        const chfInEur = item.chargeCHF * chfToEurRate;
-        return item.chargeEUR + chfInEur;
+        return item.hotelCost ;
     });
     new Chart(ctx, {
         type: 'bar',
@@ -645,31 +641,11 @@ async function calculateTotalParkingCost() {
         if (!response.ok) throw new Error('Failed to load itinerary.json');
         const itineraryData = await response.json();
 
-        // Calculate total parking cost
-        const totalParkingCost = itineraryData.reduce((sum, day) => {
-            if (day.parking) {
-                const parkingMatch = day.parking.match(/\d+/g); // Extract numeric values
-                const isDollar = day.parking.includes('$'); // Check if the value is in dollars
-                if (parkingMatch) {
-                    let parkingCost = parseFloat(parkingMatch[0]);
-                    if (isDollar) {
-                        parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
-                    }
-                    return sum + parkingCost;
-                }
-            }
-            return sum;
+        const totalParkingCost = tripData.itinerary.filter(item => item.parking).reduce((acc, item) => {
+             return acc + item.parking ;
         }, 0);
-        const totalFuelCost = itineraryData.reduce((sum, day) => {
-            if (day.fuelCost) {
-                const parkingMatch = day.fuelCost; // Extract numeric values
-                if (parkingMatch) {
-                    let parkingCost = parseFloat(parkingMatch);
-                    parkingCost *= 0.93; // Convert USD to EUR (example conversion rate)
-                    return sum + parkingCost;
-                }
-            }
-            return sum;
+        const totalFuelCost = tripData.itinerary.filter(item => item.fuelCost).reduce((acc, item) => {
+             return acc + item.fuelCost ;
         }, 0);
         
         const totalFoodCost = itineraryData.reduce((sum, day) => {
@@ -677,7 +653,6 @@ async function calculateTotalParkingCost() {
                 const dayTotal = day.foodExpenses.reduce((daySum, expense) => {
                     let expenseValue = parseFloat(expense);
                     if (!isNaN(expenseValue)) {
-                        expenseValue *= 0.93; // Convert USD to EUR (example conversion rate)
                         return daySum + expenseValue;
                     }
                     return daySum;
@@ -692,7 +667,6 @@ async function calculateTotalParkingCost() {
                 const dayTotal = day.ticketExpenses.reduce((daySum, expense) => {
                     let expenseValue = parseFloat(expense);
                     if (!isNaN(expenseValue)) {
-                        expenseValue *= 0.93; // Convert USD to EUR (example conversion rate)
                         return daySum + expenseValue;
                     }
                     return daySum;
@@ -706,12 +680,10 @@ async function calculateTotalParkingCost() {
         document.getElementById('total-food-cost').textContent = `${totalFoodCost.toFixed(2)}`;
         document.getElementById('total-ticket-cost').textContent = `${totalTicketCost.toFixed(2)}`;
         
-        const totalCost = (totalFuelCost* 0.93) +  totalParkingCost + (totalFoodCost* 0.93)+(totalTicketCost* 0.93)+
+        const totalCost = totalFuelCost +  totalParkingCost + totalFoodCost+totalTicketCost+
                   parseFloat(document.getElementById('total-hotel-cost').textContent) + 
-                  parseFloat(document.getElementById('total-rental-cost').textContent);//
-        const euroToUsdRate = 1.17; // Example conversion rate
-        const totalCostInUsd = totalCost * euroToUsdRate;
-        document.getElementById('total-cost').textContent = `€${totalCost.toFixed(2)} / $${totalCostInUsd.toFixed(2)} `;
+                  parseFloat(document.getElementById('total-rental-cost').textContent);
+        document.getElementById('total-cost').textContent = `$${totalCost.toFixed(2)} `;
     
     } catch (e) {
         console.error('Error calculating total parking cost:', e);
